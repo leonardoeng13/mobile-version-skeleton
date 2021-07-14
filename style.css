@@ -1,7 +1,7 @@
 html {
   scroll-behavior: smooth;
 }
-  
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -15,20 +15,20 @@ body {
 }
 
 .desktop-nav {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1440px;
-    height: 100px;
-    background: #fff;
-    box-sizing: border-box;
-    box-shadow: 0px 0.5px 0px #dddfe6;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1440px;
+  height: 100px;
+  background: #fff;
+  box-sizing: border-box;
+  box-shadow: 0 0.5px 0 #dddfe6;
 }
 
 .desktop-nav .menu-items {
-    display: flex;
-    list-style: none;
+  display: flex;
+  list-style: none;
 }
 
 .desktop-nav .menu-items li {
@@ -40,7 +40,7 @@ body {
   line-height: 24px;
   text-align: right;
   color: #1a2236;
-  }
+}
 
 .desktop-nav .menu-items li a {
   text-decoration: none;
@@ -86,7 +86,7 @@ body {
   align-items: center;
 }
 
-.retangule p {
+.webcontainer .retangule p {
   position: absolute;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -94,9 +94,9 @@ body {
   font-size: 18px;
   line-height: 27px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 21px 25px;
-  padding: 0 20px; 
+  padding: 0 20px;
 }
 
 .right {
@@ -157,7 +157,7 @@ body {
     justify-content: space-between;
     width: 320px;
     height: 70px;
-    background: #fff;
+    background: #ffffff;
   }
 
   .desktop-nav .menu-icon {
@@ -242,5 +242,4 @@ body {
     height: 190px;
     top: 400px;
   }
-
 }
