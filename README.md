@@ -6,9 +6,9 @@
 - set up a new repository and prepare it for development using best practices (e.g. linters).
 - build the first 3 sections of the mobile website using the template you chose in the previous step
 
-![screenshot](images/printScreen.PNG)
+![screenshot](images/printScreen.png)
 
-[Live Demo Link](https://leonardoeng13.github.io/mobile-portfolio/index.html)
+[Live Demo Link](https://leonardoeng13.github.io/mobile-version-skeleton/index.html)
 
 ## Learning objectives
 
