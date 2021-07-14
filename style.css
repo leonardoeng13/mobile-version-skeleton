@@ -149,7 +149,7 @@ body {
     display: none;
   }
 
-/* End hide desktop items version */
+  /* End hide desktop items version */
 
   .desktop-nav {
     position: relative;
@@ -171,7 +171,6 @@ body {
 
   .desktop-nav .logo-mobile {
     display: block;
-    align-items: left;
     position: relative;
   }
 
@@ -212,7 +211,7 @@ body {
     color: #1a2236;
   }
 
-  .retangule {
+  .webcontainer .retangule {
     display: flex;
     position: relative;
     width: 388px;
@@ -221,7 +220,7 @@ body {
     background: #1a2236;
   }
 
-  .retangule p {
+  .webcontainer .retangule p {
     align-items: center;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
