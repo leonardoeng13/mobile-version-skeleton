@@ -229,7 +229,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     text-align: center;
-    color: #fff; 
+    color: #fff;
   }
 
   body .imgindexmobile {
@@ -239,4 +239,5 @@ body {
     height: 190px;
     top: 400px;
   }
+
 }
