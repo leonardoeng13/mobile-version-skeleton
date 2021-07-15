@@ -47,14 +47,6 @@
 ### HTML/CSS requirements
 - Follow our list of best practices for HTML & CSS.
 
-### Project Requirements
-- For this project, you should use the HTML&CSS linter
-- The 2 sections you need to build for this project
-- In order to lay out the elements on the page you should use Flexbox in all 2 sections.
-- You don't need to implement any functionality that requires JavaScript, like opening the menu or creating dropdowns.
-- You must stick to the design as much as possible (e.g. font, colors, images, tests, margins) using the templates in Figma.
-- Implement the button interactions (enable, hover, etc.).
-
 ### Need a big picture?
 
 Remind me about the big picture of this project.
