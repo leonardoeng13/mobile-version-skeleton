@@ -1,59 +1,73 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Portfolio: setup and mobile version skeleton
 
-> One paragraph statement about the project.
+> For the first milestone in the process of creating your portfolio website, you will:
+- set up a new repository and prepare it for development using best practices (e.g. linters).
+- build the first 3 sections of the mobile website using the template you chose in the previous step
 
-![screenshot](./app_screenshot.png)
+![screenshot](images/printScreen.png)
 
-Additional description about the project and its features.
+[Live Demo Link](https://leonardoeng13.github.io/mobile-version-skeleton/index.html)
+
+## Learning objectives
+
+- Understand how to parse a Figma design to create a UI.
+- Flexbox to place elements in the page.
+- Build a personal portfolio site.
+- Use images and backgrounds to enhance the look of the website.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Major languages: HTML, CSS
+- Frameworks: VS Code, Linter
+- Technologies used: VS Code, Linter, HTML, CSS
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
 
+## General requirements
 
-## Getting Started
+- Make sure that there are no linter errors:
+    - Linter should be set up correctly for this repository.
+    - Linter result should be green.
+    - There should be no custom changes to linter config.
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+- Make sure that you used correct GitHub Flow:
+    - README file should be descriptive.
+    - Commit messages should be meaningful.
+    - Pull Request should have a descriptive title explaining what changes are inside.
+    - Pull Request should have a short summary describing introduced changes in more detail.
+- Make sure that you documented your work in a professional way:
+    - Branch name should describe a feature or action (e.g. 'created_sidebar' or 'added_comments_section').
+    - Pull Request is made from 'feature branch' into the main branch.
 
+# Prerequisites
 
-To get a local copy up and running follow these simple example steps.
+### HTML/CSS requirements
+- Follow our list of best practices for HTML & CSS.
 
-### Prerequisites
+### Project Requirements
+- For this project, you should use the HTML&CSS linter
+- The 2 sections you need to build for this project
+- In order to lay out the elements on the page you should use Flexbox in all 2 sections.
+- You don't need to implement any functionality that requires JavaScript, like opening the menu or creating dropdowns.
+- You must stick to the design as much as possible (e.g. font, colors, images, tests, margins) using the templates in Figma.
+- Implement the button interactions (enable, hover, etc.).
 
-### Setup
+### Need a big picture?
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+Remind me about the big picture of this project.
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@gLeonardoeng13](https://github.com/leonardoeng13)
+- Twitter: [@Leo de Andrade](https://twitter.com/andrade_leo)
+- LinkedIn: [Leonardo de Andrade](https://linkedin.com/in/leonardodeandrade)
 
 👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
