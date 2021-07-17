@@ -311,7 +311,7 @@ body {
   color: #fff;
   text-align: left;
 }
-  
+
 .grid-item {
   background-color: #fff;
   font-family: 'Poppins', sans-serif;
@@ -708,7 +708,7 @@ textarea {
   .mobile-project {
     display: flex;
   }
-  
+
   .mobile-projecttit h1 {
     position: absolute;
     width: 181px;
@@ -739,14 +739,6 @@ textarea {
     left: 0;
     top: 1096px;
   }
-
-/*   .mobile-retangule22 {
-    position: absolute;
-    width: 320px;
-    height: 186px;
-    left: 0;
-    top: 1096px;
-  } */
 
   .mobile-retangule27 {
     position: absolute;
@@ -807,7 +799,6 @@ textarea {
     float: left;
     margin: 0 10px;
     justify-content: center;
-    /* align-items: left; */
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     text-align: center;
@@ -851,7 +842,6 @@ textarea {
     display: flex;
     position: absolute;
     width: auto;
-    position: absolute;
     width: 295px;
     height: 110px;
   }
@@ -983,13 +973,13 @@ textarea {
     letter-spacing: -0.01em;
     color: #1a2236;
   }
-     
+
   .mobile-get-started > .mobile-formcontainer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
-    
+
   .mobile-form {
     display: flex;
     position: absolute;
@@ -1003,7 +993,7 @@ textarea {
     background-color: #f2f2f2;
     padding: 20px;
   }
-    
+
   label {
     align-items: center;
     font-family: 'Poppins', sans-serif;
@@ -1013,7 +1003,7 @@ textarea {
     line-height: 18px;
     color: #7d7c84;
   }
-    
+
   input[type=text] {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -1031,7 +1021,7 @@ textarea {
     box-sizing: border-box;
     border-radius: 4px;
   }
-    
+
   textarea {
     width: 100%;
     height: 150px;
@@ -1048,7 +1038,7 @@ textarea {
     color: #7d7c84;
     resize: none;
   }
-    
+
   .mobile-btnsend {
     display: flex;
     position: absolute;
@@ -1073,14 +1063,13 @@ textarea {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* align-items: left; */
     width: 320px;
     height: 150px;
     left: 0;
     top: 4900px;
     background: #1a2236;
   }
-  
+
   .mobile-footer > .mobile-btncv {
     position: relative;
     display: flex;
@@ -1090,7 +1079,7 @@ textarea {
     left: 16px;
     top: 30px;
   }
-  
+
   .mobile-media-share {
     justify-content: space-between;
     display: flex;
@@ -1100,4 +1089,4 @@ textarea {
     height: 24px;
     left: 16px;
   }
-  }
+}
