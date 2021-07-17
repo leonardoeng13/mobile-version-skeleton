@@ -85,19 +85,19 @@ body {
 }
 
 .intro > p {
-position: absolute;
-width: 484px;
-height: 84px;
-left: 160px;
-top: 572px;
-font-family: 'Poppins', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 21px;
-letter-spacing: -0.01em;
-color: #1A2236;
-letter-spacing: -1%;
+  position: absolute;
+  width: 484px;
+  height: 84px;
+  left: 160px;
+  top: 572px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
+  letter-spacing: -1%;
 }
 
 .btnstart {
@@ -109,7 +109,7 @@ letter-spacing: -1%;
   height: 70px;
   left: 160px;
   top: 715px;
-  background: #1A2236;
+  background: #1a2236;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -146,7 +146,7 @@ letter-spacing: -1%;
   display: flex;
   position: absolute;
   top: 1245px;
-} 
+}
 
 .project-tit > h1 {
   font-family: 'Playfair Display', sans-serif;
@@ -154,7 +154,7 @@ letter-spacing: -1%;
   font-weight: normal;
   font-size: 110px;
   line-height: 100%;
-  color: #1A2236;
+  color: #1a2236;
   transform: rotate(-90deg);
 }
 
@@ -168,42 +168,42 @@ letter-spacing: -1%;
 }
 
 .project1 {
-display: flex;
-position: absolute;
-width: 960px;
-height: 558px;
-left: 480px;
-top: 1187px;
+  display: flex;
+  position: absolute;
+  width: 960px;
+  height: 558px;
+  left: 480px;
+  top: 1187px;
 }
 
 .retangule46 {
-display: flex;
-position: absolute;
-width: 465px;
-height: 270px;
-left: 0px;
-top: 1825px;
-border: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  position: absolute;
+  width: 465px;
+  height: 270px;
+  left: 0;
+  top: 1825px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .retangule25 {
-display: flex;
-position: absolute;
-width: 465px;
-height: 270px;
-left: 975px;
-top: 1745px;
-border: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  position: absolute;
+  width: 465px;
+  height: 270px;
+  left: 975px;
+  top: 1745px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .retangule26 {
-display: flex;
-position: absolute;
-width: 465px;
-height: 270px;
-left: 975px;
-top: 2015px;
-border: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  position: absolute;
+  width: 465px;
+  height: 270px;
+  left: 975px;
+  top: 2015px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .retangule27 {
@@ -211,7 +211,7 @@ border: 1px solid rgba(255, 255, 255, 0.1);
   position: absolute;
   width: 800px;
   height: 465px;
-  left: 0px;
+  left: 0;
   top: 2095px;
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -231,34 +231,34 @@ border: 1px solid rgba(255, 255, 255, 0.1);
   width: 511px;
   height: 350px;
   left: 464px;
-  top: 1745px; 
+  top: 1745px;
 }
 
 .imagegeometry3 {
-display: flex;
-position: absolute;
-width: 639.75px;
-height: 275.42px;
-left: 800px;
-top: 2285px; 
+  display: flex;
+  position: absolute;
+  width: 639.75px;
+  height: 275.42px;
+  left: 800px;
+  top: 2285px;
 }
 
 .imagegeometry4 {
-display: flex;
-position: absolute;
-width: 87px;
-height: 87px;
-left: 713px;
-top: 2560px;
+  display: flex;
+  position: absolute;
+  width: 87px;
+  height: 87px;
+  left: 713px;
+  top: 2560px;
 }
 
 .imagegeometry5 {
-display: flex;
-position: absolute;
-width: 211.7px;
-height: 124.04px;
-left: 0px;
-top: 2560px; 
+  display: flex;
+  position: absolute;
+  width: 211.7px;
+  height: 124.04px;
+  left: 0;
+  top: 2560px;
 }
 
 .imagegeometry6 {
@@ -266,8 +266,8 @@ top: 2560px;
   position: absolute;
   width: 263.06px;
   height: 350.84px;
-  left: 0px;
-  top: 3782px; 
+  left: 0;
+  top: 3782px;
 }
 
 .imagegeometry7 {
@@ -276,7 +276,7 @@ top: 2560px;
   width: 350px;
   height: 350px;
   left: 1089px;
-  top: 4378px; 
+  top: 4378px;
 }
 
 .grid-container {
@@ -291,14 +291,14 @@ top: 2560px;
 }
 
 .grid-item h3 {
-font-family: 'Poppins', sans-serif;
-align-content: left;
-font-style: normal;
-font-weight: 800;
-font-size: 20px;
-line-height: 30px;
-color: #fff;
-text-align: left;
+  font-family: 'Poppins', sans-serif;
+  align-content: left;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+  text-align: left;
 }
   
 .grid-item {
@@ -359,7 +359,7 @@ text-align: left;
   background-image: url(images/image_dots_with_teal.svg);
   background-repeat: no-repeat;
   background-position-x: right;
-  background-position-y: bottom;  
+  background-position-y: bottom;
 }
 
 .about {
@@ -380,7 +380,7 @@ text-align: left;
   font-weight: normal;
   font-size: 110px;
   line-height: 100%;
-  color: #1A2236;
+  color: #1a2236;
 }
 
 .about-text {
@@ -395,7 +395,7 @@ text-align: left;
   font-weight: normal;
   font-size: 14px;
   line-height: 21px;
-  color: #1A2236;
+  color: #1a2236;
 }
 
 .btncv {
@@ -406,14 +406,14 @@ text-align: left;
   width: 254px;
   height: 70px;
   top: 345px;
-  background: #1A2236;
+  background: #1a2236;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
   text-align: center;
-  color: #fff;  
+  color: #fff;
 }
 
 .get-started {
@@ -435,7 +435,7 @@ text-align: left;
   font-weight: normal;
   font-size: 110px;
   line-height: 100%;
-  color: #1A2236;
+  color: #1a2236;
 }
 
 .started-tit > p {
@@ -451,7 +451,7 @@ text-align: left;
   font-size: 14px;
   line-height: 21px;
   letter-spacing: -0.01em;
-  color: #1A2236;
+  color: #1a2236;
   letter-spacing: -1%;
 }
 
@@ -482,7 +482,7 @@ label {
   font-weight: normal;
   font-size: 16px;
   line-height: 18px;
-  color: #7D7C84;
+  color: #7d7c84;
 }
 
 input[type=text]{
@@ -491,13 +491,13 @@ input[type=text]{
   font-weight: normal;
   font-size: 16px;
   line-height: 18px;
-  color: #7D7C84;
+  color: #7d7c84;
   padding: 12px 15px;
   margin: 8px 0;
   width: 253px;
   height: 60px;
   display: inline-block;
-  background: #FFFFFF;
+  background: #fff;
   border: 1px solid #252C40;
   box-sizing: border-box;
   border-radius: 4px;
@@ -511,7 +511,7 @@ textarea {
   border: 2px solid #ccc;
   border-radius: 4px;
   background-color: #f8f8f8;
-   font-family: 'Poppins' sans-serif;
+  font-family: 'Poppins' sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -529,7 +529,7 @@ textarea {
   height: 70px;
   left: 160px;
   top: 315px;
-  background: #1A2236;
+  background: #1a2236;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -540,16 +540,16 @@ textarea {
 }
 
 .footer {
-position: absolute;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-width: 1440px;
-height: 123px;
-left: 240px;
-top: 4729px;
-background: #1A2236;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 1440px;
+  height: 123px;
+  left: 240px;
+  top: 4729px;
+  background: #1a2236;
 }
 
 .footer > .btncv {
@@ -558,7 +558,7 @@ background: #1A2236;
   width: 254px;
   height: 70px;
   left: 160px;
-  top: 30px;  
+  top: 30px;
 }
 
 .media-share {
@@ -630,7 +630,7 @@ background: #1A2236;
     font-weight: normal;
     font-size: 50px;
     line-height: 100%;
-    color: #1A2236
+    color: #1a2236
   }
 
   .mobile-hello > .intro p {
@@ -638,14 +638,14 @@ background: #1A2236;
     width: 288px;
     height: 126px;
     left: 16px;
-    top: 224px; 
+    top: 224px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 21px;
     letter-spacing: -0.01em;
-    color: #1A2236;
+    color: #1a2236;
   }
 
   .mobile-hello > .intro .btnstart {
@@ -657,7 +657,7 @@ background: #1A2236;
     height: 50px;
     left: 20px;
     top: 390px;
-    background: #1A2236;
+    background: #1a2236;
   }
 
   .mobile-hello > .image_geometry_2 {
@@ -679,7 +679,7 @@ background: #1A2236;
     font-weight: normal;
     font-size: 50px;
     line-height: 100%;
-    color: #1A2236;
+    color: #1a2236;
   }
 
   .mobile-project1 {
@@ -687,7 +687,7 @@ background: #1A2236;
     position: absolute;
     width: 320px;
     height: 186px;
-    left: 0px;
+    left: 0;
     top: 754px;
   }
 
@@ -695,7 +695,7 @@ background: #1A2236;
     position: absolute;
     width: 320px;
     height: 186px;
-    left: 0px;
+    left: 0;
     top: 1096px;
   }
 
@@ -703,7 +703,7 @@ background: #1A2236;
     position: absolute;
     width: 320px;
     height: 186px;
-    left: 0px;
+    left: 0;
     top: 1096px;
   }
 
@@ -711,7 +711,7 @@ background: #1A2236;
     position: absolute;
     width: 320px;
     height: 186px;
-    left: 0px;
+    left: 0;
     top: 1438px;
   }
 
@@ -719,7 +719,7 @@ background: #1A2236;
     position: absolute;
     width: 320px;
     height: 186px;
-    left: 0px;
+    left: 0;
     top: 1780px;
   }
 
@@ -727,7 +727,7 @@ background: #1A2236;
     position: absolute;
     width: 320px;
     height: 186px;
-    left: 0px;
+    left: 0;
     top: 2122px;
   }
 
@@ -735,7 +735,7 @@ background: #1A2236;
     position: absolute;
     width: 320px;
     height: 186px;
-    left: 0px;
+    left: 0;
     top: 2464px;
   }
 
@@ -743,9 +743,9 @@ background: #1A2236;
     position: absolute;
     width: 315px;
     height: 156px;
-    left: 0px;
-    top: 186px;  
-    background: #1A2236;
+    left: 0;
+    top: 186px;
+    background: #1a2236;
     border: 0.333333px solid rgba(255, 255, 255, 0.1);
   }
 
@@ -756,7 +756,7 @@ background: #1A2236;
     font-weight: 300;
     font-size: 20px;
     line-height: 80%;
-    color: #FFFFFF;
+    color: #fff;
   }
 
   .overdescription > li {
@@ -777,7 +777,6 @@ background: #1A2236;
     background: #98dede;
     flex-direction: column;
     text-decoration: none;
-    /* positi  on: relative;*/
     font-weight: 300;
     font-size: 10.3334px;
     line-height: 80%;
@@ -789,7 +788,7 @@ background: #1A2236;
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: center;
-    color: #1a2236;  
+    color: #1a2236;
     font-family: 'Poppins', sans-serif;
     display: flex;
     position: relative;
@@ -822,7 +821,7 @@ background: #1A2236;
     font-weight: normal;
     font-size: 50px;
     line-height: 100%;
-    color: #1A2236;
+    color: #1a2236;
     left: 16px;
     top: 2850px;
   }
@@ -839,7 +838,7 @@ background: #1A2236;
     font-weight: normal;
     font-size: 14px;
     line-height: 21px;
-    color: #1A2236;
+    color: #1a2236;
     top: 1470px;
   }
 
@@ -852,7 +851,7 @@ background: #1A2236;
     height: 50px;
     left: 16px;
     top: 345px;
-    background: #1A2236;
+    background: #1a2236;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -860,7 +859,7 @@ background: #1A2236;
     line-height: 27px;
     text-align: center;
     color: #fff;
-    top: 3090px; 
+    top: 3090px;
   }
 
   .mobile-skills {
@@ -918,7 +917,7 @@ background: #1A2236;
     font-weight: normal;
     font-size: 50px;
     line-height: 100%;
-    color: #1A2236;
+    color: #1a2236;
   }
 
   .mobile-get-started > .mobile-started-tit p{
@@ -934,7 +933,7 @@ background: #1A2236;
     font-size: 14px;
     line-height: 21px;
     letter-spacing: -0.01em;
-    color: #1A2236;
+    color: #1a2236;
   }
      
     .mobile-get-started > .mobile-formcontainer{
@@ -963,7 +962,7 @@ background: #1A2236;
     font-weight: normal;
     font-size: 16px;
     line-height: 18px;
-    color: #7D7C84;
+    color: #7d7c84;
     }
     
     input[type=text]{
@@ -972,13 +971,13 @@ background: #1A2236;
     font-weight: normal;
     font-size: 16px;
     line-height: 18px;
-    color: #7D7C84;
+    color: #7d7c84;
     padding: 12px 15px;
     margin: 8px 0;
     width: 288px;
     height: 60px;
     display: inline-block;
-    background: #FFFFFF;
+    background: #fff;
     border: 1px solid #252C40;
     box-sizing: border-box;
     border-radius: 4px;
@@ -1010,7 +1009,7 @@ background: #1A2236;
     height: 44px;
     left: 20px;
     top: 400px;
-    background: #1A2236;
+    background: #1a2236;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -1028,9 +1027,9 @@ background: #1A2236;
     align-items: left;
     width: 320px;
     height: 150px;
-    left: 0px;
+    left: 0;
     top: 4900px;
-    background: #1A2236;
+    background: #1a2236;
     }
     
      .mobile-footer > .mobile-btncv {
@@ -1040,7 +1039,7 @@ background: #1A2236;
       width: 150px;
       height: 34px;
       left: 16px;
-      top: 30px;  
+      top: 30px;
     }
     
     .mobile-media-share {
