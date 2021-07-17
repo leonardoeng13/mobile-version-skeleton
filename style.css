@@ -657,6 +657,20 @@ textarea {
     background: #fff;
   }
 
+  .mobile-projecttit h1 {
+    position: absolute;
+    width: 181px;
+    height: 50px;
+    left: 16px;
+    top: 672px;
+    font-family: 'Playfair Display', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 100%;
+    color: #1a2236;
+  }
+
   .mobile-hello > .mobile-intro h1 {
     position: absolute;
     width: 220px;
@@ -707,20 +721,6 @@ textarea {
 
   .mobile-project {
     display: flex;
-  }
-
-  .mobile-projecttit h1 {
-    position: absolute;
-    width: 181px;
-    height: 50px;
-    left: 16px;
-    top: 672px;
-    font-family: 'Playfair Display', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 50px;
-    line-height: 100%;
-    color: #1a2236;
   }
 
   .mobile-project1 {
