@@ -455,7 +455,7 @@ body {
   letter-spacing: -1%;
 }
 
-.formcontainer{
+.formcontainer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -485,7 +485,7 @@ label {
   color: #7d7c84;
 }
 
-input[type=text]{
+input[type=text] {
   font-family: 'Poppins' sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -498,7 +498,7 @@ input[type=text]{
   height: 60px;
   display: inline-block;
   background: #fff;
-  border: 1px solid #252C40;
+  border: 1px solid #252c40;
   box-sizing: border-box;
   border-radius: 4px;
 }
@@ -577,15 +577,15 @@ textarea {
     padding: 0;
     width: auto;
   }
-  
+
   .desktop-header {
     display: none;
   }
-  
+
   .hello {
     display: none;
   }
-  
+
   .project {
     display: none;
   }
@@ -601,7 +601,7 @@ textarea {
   .footer {
     display: none;
   }
-  
+
   .navbar .ic_menu {
     display: flex;
   }
@@ -609,7 +609,7 @@ textarea {
   .logomobile {
     display: flex;
   }
-  
+
   .menumobile {
     display: flex;
     padding-right: 20px;
@@ -630,7 +630,7 @@ textarea {
     font-weight: normal;
     font-size: 50px;
     line-height: 100%;
-    color: #1a2236
+    color: #1a2236;
   }
 
   .mobile-hello > .intro p {
@@ -936,10 +936,10 @@ textarea {
     color: #1a2236;
   }
      
-    .mobile-get-started > .mobile-formcontainer{
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
+    .mobile-get-started > .mobile-formcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     }
     
     .mobile-form {
@@ -978,7 +978,7 @@ textarea {
     height: 60px;
     display: inline-block;
     background: #fff;
-    border: 1px solid #252C40;
+    border: 1px solid #252c40;
     box-sizing: border-box;
     border-radius: 4px;
     }
@@ -991,7 +991,7 @@ textarea {
     border: 2px solid #ccc;
     border-radius: 4px;
     background-color: #f8f8f8;
-     font-family: 'Poppins' sans-serif;
+    font-family: 'Poppins' sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -1033,23 +1033,22 @@ textarea {
     }
     
      .mobile-footer > .mobile-btncv {
-      position: relative;
-      display: flex;
-      font-size: 16px;
-      width: 150px;
-      height: 34px;
-      left: 16px;
-      top: 30px;
+    position: relative;
+    display: flex;
+    font-size: 16px;
+    width: 150px;
+    height: 34px;
+    left: 16px;
+    top: 30px;
     }
     
     .mobile-media-share {
-      justify-content: space-between;
-      display: flex;
-      position: absolute;
-      top: 70px;
-      width: 288px;
-      height: 24px;
-      left: 16px;
-
+    justify-content: space-between;
+    display: flex;
+    position: absolute;
+    top: 70px;
+    width: 288px;
+    height: 24px;
+    left: 16px;
     }
   }
