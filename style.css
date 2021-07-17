@@ -88,7 +88,7 @@ body {
   height: 220px;
   left: 160px;
   top: 292px;
-  font-family: 'Playfair Display' sans-serif;
+  font-family: 'Playfair Display', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 110px;
@@ -102,14 +102,13 @@ body {
   height: 84px;
   left: 160px;
   top: 572px;
-  font-family: 'Poppins', sans-serif; 
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 21px;
   letter-spacing: -0.01em;
   color: #1a2236;
-  letter-spacing: -1%;
 }
 
 .btnstart {
@@ -304,7 +303,7 @@ body {
 
 .grid-item h3 {
   font-family: 'Poppins', sans-serif;
-  align-content: left;
+  /* align-content: left; */
   font-style: normal;
   font-weight: 800;
   font-size: 20px;
@@ -443,7 +442,7 @@ body {
   height: 110px;
   left: 446px;
   top: 3850px;
-  font-family: 'Playfair Display' sans-serif;
+  font-family: 'Playfair Display', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 110px;
@@ -585,7 +584,7 @@ textarea {
 }
 
 @media screen and (min-width: 0) and (max-width: 450px) {
-  body{
+  body {
     display: block;
     padding: 0;
     width: auto;
@@ -811,17 +810,15 @@ textarea {
     float: left;
     margin: 0 10px;
     justify-content: center;
-    align-items: left;
+    /* align-items: left; */
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-weight: normal;
     text-align: center;
     color: #1a2236;
     width: 69px;
     height: 25px;
     background: #98dede;
     flex-direction: column;
-    text-decoration: none;
     font-weight: 300;
     font-size: 10.3334px;
     line-height: 80%;
@@ -960,14 +957,14 @@ textarea {
     position: absolute;
   }
 
-  .mobile-get-started > .mobile-started-tit h1{
+  .mobile-get-started > .mobile-started-tit h1 {
     display: flex;
     position: absolute;
     width: 249px;
     height: 50px;
     left: 20px;
     top: 70px;
-    font-family: 'Playfair Display' sans-serif;
+    font-family: 'Playfair Display', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 50px;
@@ -975,14 +972,14 @@ textarea {
     color: #1a2236;
   }
 
-  .mobile-get-started > .mobile-started-tit p{
+  .mobile-get-started > .mobile-started-tit p {
     display: flex;
     position: absolute;
     width: 288px;
     height: 63px;
     left: 16px;
     top: 170px;
-    font-family: 'Playfair Display' sans-serif;
+    font-family: 'Playfair Display', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -1021,7 +1018,7 @@ textarea {
     color: #7d7c84;
   }
     
-  input[type=text]{
+  input[type=text] {
     font-family: 'Poppins' sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -1080,14 +1077,14 @@ textarea {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: left;
+    /* align-items: left; */
     width: 320px;
     height: 150px;
     left: 0;
     top: 4900px;
     background: #1a2236;
   }
-    
+  
   .mobile-footer > .mobile-btncv {
     position: relative;
     display: flex;
@@ -1097,7 +1094,7 @@ textarea {
     left: 16px;
     top: 30px;
   }
-    
+  
   .mobile-media-share {
     justify-content: space-between;
     display: flex;
