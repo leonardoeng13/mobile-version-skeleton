@@ -37,30 +37,26 @@
     </header>
     
     <!-- Hello Section -->
+    <section>
+        <!-- Mobile Version  -->
+        <div class="mobile-hello">
+            <div class="mobile-intro">
+                <h1>Leo de Andrade</h1>
+                <p>Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my works. If you like what you see and have a project you need coded, don’t hesitate and contact me</p>
+                <!-- <button class="btnstart">Start Collaboration</button> -->
+                <button title="Start Collaboration" class="btnstart" onclick=" window.open('#get-started', '_self'); return false;">Start Collaboration</button>
+            </div>
+            <div class="image_geometry_2">
+                <img src="images/image_geometry_2.png" alt="">
+            </div>
+        </div>
+        <!-- end mobile version -->
 
-    <section class="mobile-hello">
-        
         <div class="intro">
             <h1>Leo de Andrade</h1>
             <p>Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my works. If you like what you see and have a project you need coded, don’t hesitate and contact me</p>
-            <!-- <button class="btnstart">Start Collaboration</button> -->
             <button title="Start Collaboration" class="btnstart" onclick=" window.open('#get-started', '_self'); return false;">Start Collaboration</button>
         </div>
-
-        <div class="image_geometry_2">
-            <img src="images/image_geometry_2.png" alt="">
-        </div>
-    </section>
-
-    <section class="hello">
-        
-        <div class="intro">
-            <h1>Leo de Andrade</h1>
-            <p>Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my works. If you like what you see and have a project you need coded, don’t hesitate and contact me</p>
-            <!-- <button class="btnstart">Start Collaboration</button> -->
-            <button title="Start Collaboration" class="btnstart" onclick=" window.open('#get-started', '_self'); return false;">Start Collaboration</button>
-        </div>
-
         <div class="dots">
             <img src="images/image_dots.svg" alt="">
         </div>
@@ -71,7 +67,8 @@
 
     <!-- Projects Section -->
 
-    <section class="mobile-project">
+    <!-- mobile version start -->
+    <div class="mobile-project">
 
         <div class="mobile-project-tit">
             <h1 class="mobile-projecttit">Projects</h1>
@@ -153,9 +150,8 @@
             </div>
         </div>
 
-    </section>
-
-<!--  -->
+    </div>
+    <!-- mobile version stop -->
     <section class="project">
 
         <div id="project-link" class="project-tit">
@@ -206,8 +202,10 @@
 
     </section>
 
-<!-- About Mobile -->
-        <section class="mobile-about-page">
+        <!-- About Section -->
+
+        <!-- about mobile version -->
+        <div class="mobile-about-page">
             <div class="mobile-about">
                 <h1 class="mobile-about-tit">About</h1>
                 <div class="mobile-about-text">
@@ -221,9 +219,9 @@
                 <img class="img2" src="images/framework.svg" alt="">
                 <img class="img3" src="images/skills.svg" alt="">
             </div>
-        </section>
+        </div>
+        <!-- end about mobile version -->
 
-        <!-- About Section -->
         <section class="about-page">
         <div id="about-link" class="grid-container">
             <div class="grid-item"> 
@@ -277,38 +275,40 @@
 
     <!-- Section Get Started -->
 
-
-    <section class="mobile-get-started">
-        <div class="logomobile2">
-            <a href="#"><img src="images/logomobile.svg" alt="Logo Mobile"></a>
-        </div>
-        <div class="mobile-started-tit">
-            <h1>Get Started</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-        </div>
-        
-        <div id="mobile-get-started" class="mobile-form">
-            <form action="submit">
-                <div class="mobile-formcontainer">
-                    <div class="mobile-fistname">
-                        <label for="mobilefname">First Name</label>
-                        <br>
-                        <input type="text" id="mobilefname" name="firstname" placeholder="Your name..">
-                    </div>
-                    <div class="mobile-email">
-                        <label for="mobileemail">E-mail</label>
-                        <br>               
-                        <input type="text" id="mobileemail" name="email" placeholder="Your e-mail..">
-                    </div>
-                </div>
-                <label for="mobiletextarea">Message</label>
-                <textarea name="textarea" id="mobiletextarea" cols="10" rows="10">Your message here ...</textarea>
-            </form>
-            <button class="mobile-btnsend">Start Collaboration</button>
-          </div>
-    </section>
-
     <section class="get-started">
+    
+        <!-- mobile get started vesion -->
+        <div class="mobile-get-started">
+            <div class="logomobile2">
+                <a href="#"><img src="images/logomobile.svg" alt="Logo Mobile"></a>
+            </div>
+            <div class="mobile-started-tit">
+                <h1>Get Started</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+            </div>
+            
+            <div class="mobile-form">
+                <form action="submit">
+                    <div class="mobile-formcontainer">
+                        <div class="mobile-fistname">
+                            <label for="mobilefname">First Name</label>
+                            <br>
+                            <input type="text" id="mobilefname" name="firstname" placeholder="Your name..">
+                        </div>
+                        <div class="mobile-email">
+                            <label for="mobileemail">E-mail</label>
+                            <br>               
+                            <input type="text" id="mobileemail" name="email" placeholder="Your e-mail..">
+                        </div>
+                    </div>
+                    <label for="mobiletextarea">Message</label>
+                    <textarea name="textarea" id="mobiletextarea" cols="10" rows="10">Your message here ...</textarea>
+                </form>
+                <button class="mobile-btnsend">Start Collaboration</button>
+              </div>
+        </div>
+        <!-- end mobile get started version -->
+
         <div class="imagegeometry6">
             <img src="images/image-geometry_6.svg" alt="">
         </div>

@@ -15,15 +15,27 @@ body {
 }
 
 .header-mobile {
-  width: 100%;
-  position: absolute;
-  max-width: 1440px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-sizing: border-box;
-  background: #fff;
+  display: none;
+}
+
+.mobile-hello {
+  display: none;
+}
+
+.mobile-project {
+  display: none;
+}
+
+.mobile-about-page {
+  display: none;
+}
+
+.mobile-get-started {
+  display: none;
+}
+
+.mobile-footer {
+  display: none;
 }
 
 .desktop-header {
@@ -286,7 +298,7 @@ body {
   padding: 10px;
   position: absolute;
   width: 289px;
-  left: 220px;
+  left: 20px;
   top: 3046px;
 }
 
@@ -370,6 +382,7 @@ body {
   width: 295px;
   height: 110px;
   left: 834px;
+  top: 2950px;
 }
 
 .about-tit {
@@ -578,7 +591,19 @@ textarea {
     width: auto;
   }
 
+  .intro {
+    display: none;
+  }
+
   .desktop-header {
+    display: none;
+  }
+
+  .dots {
+    display: none;
+  }
+
+  .image-geometri1 {
     display: none;
   }
 
@@ -591,6 +616,10 @@ textarea {
   }
 
   .about-page {
+    display: none;
+  }
+
+  .imagegeometry6 {
     display: none;
   }
 
@@ -619,7 +648,19 @@ textarea {
     display: flex;
   }
 
-  .mobile-hello > .intro h1 {
+  .header-mobile {
+    width: 100%;
+    position: absolute;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    background: #fff;
+  }
+
+  .mobile-hello > .mobile-intro h1 {
     position: absolute;
     width: 220px;
     height: 100px;
@@ -633,7 +674,7 @@ textarea {
     color: #1a2236;
   }
 
-  .mobile-hello > .intro p {
+  .mobile-hello > .mobile-intro p {
     position: absolute;
     width: 288px;
     height: 126px;
@@ -648,7 +689,7 @@ textarea {
     color: #1a2236;
   }
 
-  .mobile-hello > .intro .btnstart {
+  .mobile-hello > .mobile-intro .btnstart {
     display: flex;
     position: absolute;
     flex-direction: row;
@@ -668,6 +709,10 @@ textarea {
     left: 20px;
   }
 
+  .mobile-project {
+    display: flex;
+  }
+  
   .mobile-projecttit h1 {
     position: absolute;
     width: 181px;
@@ -699,7 +744,7 @@ textarea {
     top: 1096px;
   }
 
-   .mobile-retangule22 {
+  .mobile-retangule22 {
     position: absolute;
     width: 320px;
     height: 186px;
@@ -804,6 +849,10 @@ textarea {
     text-decoration: none;
   }
 
+  .mobile-about-page {
+    display: flex;
+  }
+
   .mobile-about > {
     display: flex;
     position: absolute;
@@ -897,12 +946,18 @@ textarea {
   }
 
   .mobile-get-started {
+    display: flex;
     position: absolute;
     width: 320px;
     height: 813px;
     left: -2px;
     top: 4129px;
-    background: #F9F9FA;
+    background: #f9f9fa;
+  }
+
+  .mobile-started-tit {
+    display: flex;
+    position: absolute;
   }
 
   .mobile-get-started > .mobile-started-tit h1{
@@ -936,13 +991,14 @@ textarea {
     color: #1a2236;
   }
      
-    .mobile-get-started > .mobile-formcontainer {
+  .mobile-get-started > .mobile-formcontainer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    }
+  }
     
-    .mobile-form {
+  .mobile-form {
+    display: flex;
     position: absolute;
     flex-flow: row wrap;
     align-items: center;
@@ -953,9 +1009,9 @@ textarea {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-    }
+  }
     
-    label {
+  label {
     align-items: center;
     font-family: 'Poppins' sans-serif;
     font-style: normal;
@@ -963,9 +1019,9 @@ textarea {
     font-size: 16px;
     line-height: 18px;
     color: #7d7c84;
-    }
+  }
     
-    input[type=text]{
+  input[type=text]{
     font-family: 'Poppins' sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -981,9 +1037,9 @@ textarea {
     border: 1px solid #252c40;
     box-sizing: border-box;
     border-radius: 4px;
-    }
+  }
     
-    textarea {
+  textarea {
     width: 100%;
     height: 150px;
     padding: 12px 20px;
@@ -998,9 +1054,9 @@ textarea {
     line-height: 18px;
     color: #7d7c84;
     resize: none;
-    }
+  }
     
-    .mobile-btnsend {
+  .mobile-btnsend {
     display: flex;
     position: absolute;
     align-items: center;
@@ -1017,9 +1073,9 @@ textarea {
     line-height: 27px;
     text-align: center;
     color: #fff;
-    }
+  }
 
-    .mobile-footer {
+  .mobile-footer {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -1030,9 +1086,9 @@ textarea {
     left: 0;
     top: 4900px;
     background: #1a2236;
-    }
+  }
     
-     .mobile-footer > .mobile-btncv {
+  .mobile-footer > .mobile-btncv {
     position: relative;
     display: flex;
     font-size: 16px;
@@ -1040,9 +1096,9 @@ textarea {
     height: 34px;
     left: 16px;
     top: 30px;
-    }
+  }
     
-    .mobile-media-share {
+  .mobile-media-share {
     justify-content: space-between;
     display: flex;
     position: absolute;
@@ -1050,5 +1106,5 @@ textarea {
     width: 288px;
     height: 24px;
     left: 16px;
-    }
+  }
   }
