@@ -153,6 +153,7 @@ body {
   position: absolute;
   width: 100%;
 }
+
 .project-tit {
   display: flex;
   position: absolute;
@@ -303,7 +304,6 @@ body {
 
 .grid-item h3 {
   font-family: 'Poppins', sans-serif;
-  /* align-content: left; */
   font-style: normal;
   font-weight: 800;
   font-size: 20px;
@@ -377,7 +377,6 @@ body {
   display: flex;
   position: absolute;
   width: auto;
-  position: absolute;
   width: 295px;
   height: 110px;
   left: 834px;
@@ -432,7 +431,7 @@ body {
   display: flex;
   position: absolute;
   width: 100%;
-  background-color: #F9F9FA;
+  background-color: #f9f9fa;
 }
 
 .started-tit > h1 {
@@ -464,7 +463,6 @@ body {
   line-height: 21px;
   letter-spacing: -0.01em;
   color: #1a2236;
-  letter-spacing: -1%;
 }
 
 .formcontainer {
@@ -489,7 +487,7 @@ body {
 
 label {
   align-items: center;
-  font-family: 'Poppins' sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -498,7 +496,7 @@ label {
 }
 
 input[type=text] {
-  font-family: 'Poppins' sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -523,7 +521,7 @@ textarea {
   border: 2px solid #ccc;
   border-radius: 4px;
   background-color: #f8f8f8;
-  font-family: 'Poppins' sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -693,7 +691,6 @@ textarea {
     position: absolute;
     flex-direction: row;
     width: 320px;
-    padding: auto;
     height: 50px;
     left: 20px;
     top: 390px;
@@ -743,13 +740,13 @@ textarea {
     top: 1096px;
   }
 
-  .mobile-retangule22 {
+/*   .mobile-retangule22 {
     position: absolute;
     width: 320px;
     height: 186px;
     left: 0;
     top: 1096px;
-  }
+  } */
 
   .mobile-retangule27 {
     position: absolute;
@@ -896,7 +893,6 @@ textarea {
     width: 288px;
     height: 50px;
     left: 16px;
-    top: 345px;
     background: #1a2236;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -1010,7 +1006,7 @@ textarea {
     
   label {
     align-items: center;
-    font-family: 'Poppins' sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -1019,7 +1015,7 @@ textarea {
   }
     
   input[type=text] {
-    font-family: 'Poppins' sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -1044,7 +1040,7 @@ textarea {
     border: 2px solid #ccc;
     border-radius: 4px;
     background-color: #f8f8f8;
-    font-family: 'Poppins' sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
