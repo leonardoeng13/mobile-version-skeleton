@@ -6,9 +6,9 @@
 - set up a new repository and prepare it for development using best practices (e.g. linters).
 - build the first 3 sections of the mobile website using the template you chose in the previous step
 
-![screenshot](images/printScreen.png)
+![screenshot](images/printScreen.PNG)
 
-[Live Demo Link](https://leonardoeng13.github.io/mobile-version-skeleton/index.html)
+[Live Demo Link](https://leonardoeng13.github.io/mobile-portfolio/index.html)
 
 ## Learning objectives
 
@@ -46,14 +46,6 @@
 
 ### HTML/CSS requirements
 - Follow our list of best practices for HTML & CSS.
-
-### Project Requirements
-- For this project, you should use the HTML&CSS linter
-- The 2 sections you need to build for this project
-- In order to lay out the elements on the page you should use Flexbox in all 2 sections.
-- You don't need to implement any functionality that requires JavaScript, like opening the menu or creating dropdowns.
-- You must stick to the design as much as possible (e.g. font, colors, images, tests, margins) using the templates in Figma.
-- Implement the button interactions (enable, hover, etc.).
 
 ### Need a big picture?
 
