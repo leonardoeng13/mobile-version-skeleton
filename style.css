@@ -4552,7 +4552,7 @@
 .q199 {
   position: relative;
   z-index: 9;
-  pointer-events: auto;
+  /* pointer-events: auto; */
   margin-left: 25px;
   width: 203.68px;
   min-width: 203.68px;
@@ -6452,7 +6452,7 @@
 .q290 {
   position: relative;
   z-index: 165;
-  pointer-events: auto;
+  /* pointer-events: auto; */
   margin-left: 0;
   width: 465px;
   min-width: 465px;
@@ -8469,7 +8469,7 @@
 .q379 {
   position: relative;
   z-index: 132;
-  pointer-events: auto;
+  /* pointer-events: auto; */
   margin-left: 25px;
   width: 203.68px;
   min-width: 203.68px;
