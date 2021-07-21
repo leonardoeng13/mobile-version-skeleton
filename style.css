@@ -212,7 +212,6 @@ body {
   display: flex;
   position: absolute;
   width: 100%;
-  /* width: 465px; */
   height: 270px;
   left: 975px;
   top: 2015px;
@@ -234,7 +233,6 @@ body {
   display: flex;
   position: absolute;
   width: 100%;
-  /* width: 465px; */
   height: 270px;
   left: 799px;
   top: 2560px;
@@ -870,7 +868,6 @@ textarea {
 
   .mobile-about > {
     display: flex;
-    /* position: absolute; */
     width: auto;
     width: 295px;
     height: 110px;
@@ -937,7 +934,6 @@ textarea {
     display: flex;
     position: absolute;
     align-items: center;
-    /* padding: 35px; */
     left: 40px;
     top: 3100px;
   }
