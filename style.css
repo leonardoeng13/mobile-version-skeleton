@@ -500,7 +500,8 @@ label {
   color: #7d7c84;
 }
 
-input[type=text], input[type=email] {
+input[type=text],
+input[type=email] {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -1035,7 +1036,8 @@ textarea {
     color: #7d7c84;
   }
 
-  input[type=text], input[type=email]{
+  input[type=text],
+  input[type=email] {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
