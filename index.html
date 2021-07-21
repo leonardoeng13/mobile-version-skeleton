@@ -296,16 +296,16 @@
                         <div class="mobile-fistname">
                             <label for="mobilefname">First Name</label>
                             <br>
-                            <input type="text" id="mobilefname" name="firstname" placeholder="Your name..">
+                            <input type="text" id="mobilefname" name="firstname" maxlength="30" required placeholder="Your name..">
                         </div>
                         <div class="mobile-email">
                             <label for="mobileemail">E-mail</label>
                             <br>               
-                            <input type="text" id="mobileemail" name="_replyto" placeholder="Your e-mail..">
+                            <input type="email" id="mobileemail" name="_replyto" placeholder="Your e-mail..">
                         </div>
                     </div>
                     <label for="mobiletextarea">Message</label>
-                    <textarea name="message" id="mobiletextarea" cols="10" rows="10" placeholder="Your message here ..."></textarea>
+                    <textarea name="message" id="mobiletextarea" cols="10" rows="10" maxlength="500" required placeholder="Your message here ..."></textarea>
                     <button class="mobile-btnsend" type="submit">Start Collaboration</button>
                 </form>
                 
@@ -333,16 +333,16 @@
                     <div class="fistname">
                         <label for="fname">First Name</label>
                         <br>
-                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        <input type="text" id="fname" name="firstname" maxlength="30" required placeholder="Your name..">
                     </div>
                     <div class="email">
                         <label for="email">E-mail</label>
                         <br>               
-                        <input type="text" id="email" name="_replyto" placeholder="Your e-mail..">
+                        <input type="email" id="email" name="_replyto" placeholder="Your e-mail..">
                     </div>
                 </div>
                 <label for="textarea">Message</label>
-                <textarea name="message" id="textarea" cols="30" rows="10" placeholder="Your message here ..."></textarea>
+                <textarea name="message" id="textarea" cols="30" rows="10" maxlength="500" required placeholder="Your message here ..."></textarea>
                 <button class="btnsend" type="submit">Start Collaboration</button>
             </form>
             
