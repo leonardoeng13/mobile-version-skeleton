@@ -347,12 +347,6 @@ body {
   width: 100%;
 }
 
-.get-started  {
-  display: flex;
-  position: absolute;
-  width: 100%;
-}
-
 .frameworks {
   position: absolute;
   width: 289px;
@@ -570,7 +564,7 @@ textarea {
 .desktop-footer {
   display: flex;
   position: absolute;
-  width: 100%;  
+  width: 100%;
 }
 
 .footer {
@@ -585,7 +579,7 @@ textarea {
   background: #1a2236;
 }
 
-.footer > a >.btncv {
+.footer > a > .btncv {
   position: absolute;
   display: flex;
   width: 254px;
@@ -1120,7 +1114,7 @@ textarea {
     background: #1a2236;
   }
 
-  .mobile-footer > a >.mobile-btncv {
+  .mobile-footer > a > .mobile-btncv {
     position: relative;
     display: flex;
     font-size: 16px;
