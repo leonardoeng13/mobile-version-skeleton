@@ -76,7 +76,6 @@ body {
   color: #1a2236;
 }
 
-
 .desktop-nav .nav li a {
   text-decoration: none;
 }
@@ -90,7 +89,6 @@ body {
   left: 60px;
   bottom: 15px;
 }
-
 
 .hello {
   display: flex;
@@ -208,7 +206,7 @@ body {
 /* Start Hoover function */
 
 .imgproject1 {
-  display: over;
+  display: absolute;
   width: 960px;
   height: 558px;
 }
@@ -220,7 +218,7 @@ body {
   width: 960px;
   height: 353px;
   background: linear-gradient(0deg, rgba(26, 34, 54, 0.95), rgba(26, 34, 54, 0.95));
-  color: #FFFFFF;
+  color: #fff;
   display: flex;
   font-family: 'Playfair Display', serif;
   flex-direction: column;
@@ -251,14 +249,12 @@ body {
 
 .overdescription li {
   font-size: 16px;
-  margin-top: 5%;
   display: flex;
   list-style: none;
   float: left;
   margin: 0 20px;
   margin-top: 15px;
   justify-content: center;
-  align-items: left;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -297,8 +293,8 @@ body {
 }
 
 .imgprojectoverlay .seeproject a {
-    text-decoration: none;
-    margin-left: 6.2%;
+  text-decoration: none;
+  margin-left: 6.2%;
 }
 
 /* End Hoover function */
@@ -326,7 +322,7 @@ body {
 /* Start Hoover Function */
 
 .retangule2 {
-  display: over;
+  display: absolute;
   width: 465px;
   height: 270px;
   flex-direction: column;
@@ -339,7 +335,7 @@ body {
   width: 465px;
   height: 218px;
   background: linear-gradient(0deg, rgba(26, 34, 54, 0.95), rgba(26, 34, 54, 0.95));
-  color: #FFFFFF;
+  color: #fff;
   display: flex;
   font-family: 'Playfair Display', serif;
   flex-direction: column;
@@ -378,7 +374,6 @@ body {
   list-style: none;
   float: left;
   margin: 0 10px;
-  align-items: left;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -777,6 +772,7 @@ textarea {
   line-height: 27px;
   text-align: center;
   color: #fff;
+  cursor: pointer;
 }
 
 .desktop-footer {
