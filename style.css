@@ -76,6 +76,16 @@ body {
   color: #1a2236;
 }
 
+.imgprojectoverlay .seeproject a {
+  text-decoration: none;
+  margin-left: 6.2%;
+}
+
+.retanguleoverlay .seeproject2 a {
+  text-decoration: none;
+  margin-left: 6.2%;
+}
+
 .desktop-nav .nav li a {
   text-decoration: none;
 }
@@ -206,7 +216,7 @@ body {
 /* Start Hoover function */
 
 .imgproject1 {
-  display: absolute;
+  display: flex;
   width: 960px;
   height: 558px;
 }
@@ -292,11 +302,6 @@ body {
   text-decoration: none;
 }
 
-.imgprojectoverlay .seeproject a {
-  text-decoration: none;
-  margin-left: 6.2%;
-}
-
 /* End Hoover function */
 
 .retangule46 {
@@ -322,7 +327,7 @@ body {
 /* Start Hoover Function */
 
 .retangule2 {
-  display: absolute;
+  display: flex;
   width: 465px;
   height: 270px;
   flex-direction: column;
@@ -345,13 +350,13 @@ body {
   transition: opacity 0.25s;
 }
 
+.retanguleoverlay:hover {
+  opacity: 1;
+}
+
 .retanguleoverlay > * {
   transform: translateY(20px);
   transition: transform 0.25s;
-}
-
-.retanguleoverlay:hover {
-  opacity: 1;
 }
 
 .retanguleoverlay:hover > * {
@@ -368,7 +373,6 @@ body {
 .retoverdescription li {
   font-size: 16px;
   top: 20px;
-  margin-top: 5%;
   line-height: 80%;
   display: flex;
   list-style: none;
@@ -411,11 +415,6 @@ body {
   margin-left: 6.2%;
   margin-top: 5%;
   text-decoration: none;
-}
-
-.retanguleoverlay .seeproject2 a {
-  text-decoration: none;
-  margin-left: 6.2%;
 }
 
 /* End Hoover Function */
