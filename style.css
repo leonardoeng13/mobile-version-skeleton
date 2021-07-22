@@ -303,6 +303,10 @@ body {
   top: 3046px;
 }
 
+.grid-item {
+  background-color: #fff;
+}
+
 .grid-item h3 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -311,18 +315,18 @@ body {
   line-height: 30px;
   color: #fff;
   text-align: left;
+  margin-left: 25px;
 }
 
-.grid-item {
-  background-color: #fff;
+.grid-item ul {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 27px;
-  letter-spacing: -0.0525em;
-  text-align: left;
+  font-weight: 800;
+  font-size: 20px;
+  left: 50px;
+  line-height: 30px;
   color: #fff;
+  text-align: left;
 }
 
 .techprof {
@@ -337,8 +341,16 @@ body {
   background-position-y: bottom;
 }
 
-.languages li {
-  float: left;
+.about-page {
+  display: flex;
+  position: absolute;
+  width: 100%;
+}
+
+.get-started  {
+  display: flex;
+  position: absolute;
+  width: 100%;
 }
 
 .frameworks {
@@ -555,6 +567,12 @@ textarea {
   color: #fff;
 }
 
+.desktop-footer {
+  display: flex;
+  position: absolute;
+  width: 100%;  
+}
+
 .footer {
   position: absolute;
   display: flex;
@@ -563,12 +581,11 @@ textarea {
   align-items: center;
   width: 1440px;
   height: 123px;
-  left: 240px;
   top: 4729px;
   background: #1a2236;
 }
 
-.footer > .btncv {
+.footer > a >.btncv {
   position: absolute;
   display: flex;
   width: 254px;
@@ -1103,7 +1120,7 @@ textarea {
     background: #1a2236;
   }
 
-  .mobile-footer > .mobile-btncv {
+  .mobile-footer > a >.mobile-btncv {
     position: relative;
     display: flex;
     font-size: 16px;
