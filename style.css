@@ -76,6 +76,22 @@ body {
   color: #1a2236;
 }
 
+
+.desktop-nav .nav li a {
+  text-decoration: none;
+}
+
+.desktop-nav .nav li a.active::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 29px;
+  background-color: #1a2236;
+  left: 60px;
+  bottom: 15px;
+}
+
+
 .hello {
   display: flex;
   position: absolute;
