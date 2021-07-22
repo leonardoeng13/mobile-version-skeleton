@@ -247,6 +247,11 @@ body {
   opacity: 1;
 }
 
+.retanguleoverlay > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
 .imgprojectoverlay:hover > * {
   transform: translateY(0);
 }
@@ -352,11 +357,6 @@ body {
 
 .retanguleoverlay:hover {
   opacity: 1;
-}
-
-.retanguleoverlay > * {
-  transform: translateY(20px);
-  transition: transform 0.25s;
 }
 
 .retanguleoverlay:hover > * {
