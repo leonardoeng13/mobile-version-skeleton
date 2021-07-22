@@ -205,6 +205,104 @@ body {
   top: 1187px;
 }
 
+/* Start Hoover function */
+
+.imgproject1 {
+  display: over;
+  width: 960px;
+  height: 558px;
+}
+
+.imgprojectoverlay {
+  position: absolute;
+  top: 205px;
+  left: 0;
+  width: 960px;
+  height: 353px;
+  background: linear-gradient(0deg, rgba(26, 34, 54, 0.95), rgba(26, 34, 54, 0.95));
+  color: #FFFFFF;
+  display: flex;
+  font-family: 'Playfair Display', serif;
+  flex-direction: column;
+  text-decoration: none;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.imgprojectoverlay > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.imgprojectoverlay:hover {
+  opacity: 1;
+}
+
+.imgprojectoverlay:hover > * {
+  transform: translateY(0);
+}
+
+.imgprojectoverlay .overtitle {
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 6.2%;
+}
+
+.overdescription li {
+  font-size: 16px;
+  margin-top: 5%;
+  display: flex;
+  list-style: none;
+  float: left;
+  margin: 0 20px;
+  margin-top: 15px;
+  justify-content: center;
+  align-items: left;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  color: #1a2236;
+  width: 132px;
+  height: 40px;
+  background: #98dede;
+  flex-direction: column;
+  text-decoration: none;
+  position: relative;
+}
+
+.imgprojectoverlay .seeproject {
+  background: rgb(219, 218, 218);
+  background-image: url(images/arrow.png);
+  background-repeat: no-repeat;
+  background-position-x: 90%;
+  background-position-y: center;
+  color: #1a2236;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  font-size: 18px;
+  line-height: 24px;
+  width: 212px;
+  height: 51px;
+  margin-left: 6.2%;
+  margin-top: 5%;
+  text-decoration: none;
+}
+
+.imgprojectoverlay .seeproject a {
+    text-decoration: none;
+    margin-left: 6.2%;
+}
+
+/* End Hoover function */
+
 .retangule46 {
   display: flex;
   position: absolute;
@@ -224,6 +322,108 @@ body {
   top: 1745px;
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
+
+/* Start Hoover Function */
+
+.retangule2 {
+  display: over;
+  width: 465px;
+  height: 270px;
+  flex-direction: column;
+}
+
+.retanguleoverlay {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 465px;
+  height: 218px;
+  background: linear-gradient(0deg, rgba(26, 34, 54, 0.95), rgba(26, 34, 54, 0.95));
+  color: #FFFFFF;
+  display: flex;
+  font-family: 'Playfair Display', serif;
+  flex-direction: column;
+  text-decoration: none;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.retanguleoverlay > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.retanguleoverlay:hover {
+  opacity: 1;
+}
+
+.retanguleoverlay:hover > * {
+  transform: translateY(0);
+}
+
+.retanguleoverlay .retovertitle {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 80%;
+  margin-left: 12%;
+}
+
+.retoverdescription li {
+  font-size: 16px;
+  top: 20px;
+  margin-top: 5%;
+  line-height: 80%;
+  display: flex;
+  list-style: none;
+  float: left;
+  margin: 0 10px;
+  align-items: left;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-weight: 300;
+  text-align: center;
+  color: #1a2236;
+  min-width: 57px;
+  padding: 0 10px;
+  height: 40px;
+  left: -22px;
+  background: #98dede;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  position: relative;
+}
+
+.retanguleoverlay .seeproject2 {
+  background: rgb(219, 218, 218);
+  background-image: url(images/arrow.png);
+  background-repeat: no-repeat;
+  background-position-x: 90%;
+  background-position-y: center;
+  color: #1a2236;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  font-size: 18px;
+  line-height: 24px;
+  width: 212px;
+  height: 51px;
+  margin-left: 6.2%;
+  margin-top: 5%;
+  text-decoration: none;
+}
+
+.retanguleoverlay .seeproject2 a {
+  text-decoration: none;
+  margin-left: 6.2%;
+}
+
+/* End Hoover Function */
 
 .retangule26 {
   display: flex;
