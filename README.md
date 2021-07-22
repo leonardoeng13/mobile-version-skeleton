@@ -6,7 +6,7 @@
 - set up a new repository and prepare it for development using best practices (e.g. linters).
 - build the first 3 sections of the mobile website using the template you chose in the previous step
 
-![screenshot](app_screenshot2.png)
+![screenshot](app_screenshot.png)
 
 [Live Demo Link](https://leonardoeng13.github.io/mobile-version-skeleton/)
 
