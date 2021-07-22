@@ -59,7 +59,12 @@ Remind me about the big picture of this project.
 - Twitter: [@Leo de Andrade](https://twitter.com/andrade_leo)
 - LinkedIn: [Leonardo de Andrade](https://linkedin.com/in/leonardodeandrade)
 
-👤 **Author2**
+👤 **Contributor**
+
+- GitHub: [@Denis Obote](https://github.com/Obote)
+- Twitter: [@obote_denis](https://twitter.com/obote_denis)
+- LinkedIn: [Denis Obote](https://www.linkedin.com/in/obote-denis-9859a2a3/)
+
 
 ## 🤝 Contributing
 
