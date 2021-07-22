@@ -579,7 +579,7 @@ textarea {
   background: #1a2236;
 }
 
-.footer > a > .btncv {
+.footer > form > .btncv {
   position: absolute;
   display: flex;
   width: 254px;
@@ -1114,7 +1114,7 @@ textarea {
     background: #1a2236;
   }
 
-  .mobile-footer > a > .mobile-btncv {
+  .mobile-footer > form > .mobile-btncv {
     position: relative;
     display: flex;
     font-size: 16px;
