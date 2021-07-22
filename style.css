@@ -76,6 +76,30 @@ body {
   color: #1a2236;
 }
 
+.imgprojectoverlay .seeproject a {
+  text-decoration: none;
+  margin-left: 6.2%;
+}
+
+.retanguleoverlay .seeproject2 a {
+  text-decoration: none;
+  margin-left: 6.2%;
+}
+
+.desktop-nav .nav li a {
+  text-decoration: none;
+}
+
+.desktop-nav .nav li a.active::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 29px;
+  background-color: #1a2236;
+  left: 60px;
+  bottom: 15px;
+}
+
 .hello {
   display: flex;
   position: absolute;
@@ -128,6 +152,7 @@ body {
   line-height: 27px;
   text-align: center;
   color: #fff;
+  cursor: pointer;
 }
 
 .dots {
@@ -188,6 +213,102 @@ body {
   top: 1187px;
 }
 
+/* Start Hoover function */
+
+.imgproject1 {
+  display: flex;
+  width: 960px;
+  height: 558px;
+}
+
+.imgprojectoverlay {
+  position: absolute;
+  top: 205px;
+  left: 0;
+  width: 960px;
+  height: 353px;
+  background: linear-gradient(0deg, rgba(26, 34, 54, 0.95), rgba(26, 34, 54, 0.95));
+  color: #fff;
+  display: flex;
+  font-family: 'Playfair Display', serif;
+  flex-direction: column;
+  text-decoration: none;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.imgprojectoverlay > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.imgprojectoverlay:hover {
+  opacity: 1;
+}
+
+.retanguleoverlay > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.imgprojectoverlay:hover > * {
+  transform: translateY(0);
+}
+
+.imgprojectoverlay .overtitle {
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 6.2%;
+}
+
+.overdescription li {
+  font-size: 16px;
+  display: flex;
+  list-style: none;
+  float: left;
+  margin: 0 20px;
+  margin-top: 15px;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  color: #1a2236;
+  width: 132px;
+  height: 40px;
+  background: #98dede;
+  flex-direction: column;
+  text-decoration: none;
+  position: relative;
+}
+
+.imgprojectoverlay .seeproject {
+  background: rgb(219, 218, 218);
+  background-image: url(images/arrow.png);
+  background-repeat: no-repeat;
+  background-position-x: 90%;
+  background-position-y: center;
+  color: #1a2236;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  font-size: 18px;
+  line-height: 24px;
+  width: 212px;
+  height: 51px;
+  margin-left: 6.2%;
+  margin-top: 5%;
+  text-decoration: none;
+}
+
+/* End Hoover function */
+
 .retangule46 {
   display: flex;
   position: absolute;
@@ -207,6 +328,96 @@ body {
   top: 1745px;
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
+
+/* Start Hoover Function */
+
+.retangule2 {
+  display: flex;
+  width: 465px;
+  height: 270px;
+  flex-direction: column;
+}
+
+.retanguleoverlay {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 465px;
+  height: 218px;
+  background: linear-gradient(0deg, rgba(26, 34, 54, 0.95), rgba(26, 34, 54, 0.95));
+  color: #fff;
+  display: flex;
+  font-family: 'Playfair Display', serif;
+  flex-direction: column;
+  text-decoration: none;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.retanguleoverlay:hover {
+  opacity: 1;
+}
+
+.retanguleoverlay:hover > * {
+  transform: translateY(0);
+}
+
+.retanguleoverlay .retovertitle {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 80%;
+  margin-left: 12%;
+}
+
+.retoverdescription li {
+  font-size: 16px;
+  top: 20px;
+  line-height: 80%;
+  display: flex;
+  list-style: none;
+  float: left;
+  margin: 0 10px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-weight: 300;
+  text-align: center;
+  color: #1a2236;
+  min-width: 57px;
+  padding: 0 10px;
+  height: 40px;
+  left: -22px;
+  background: #98dede;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  position: relative;
+}
+
+.retanguleoverlay .seeproject2 {
+  background: rgb(219, 218, 218);
+  background-image: url(images/arrow.png);
+  background-repeat: no-repeat;
+  background-position-x: 90%;
+  background-position-y: center;
+  color: #1a2236;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  font-size: 18px;
+  line-height: 24px;
+  width: 212px;
+  height: 51px;
+  margin-left: 6.2%;
+  margin-top: 5%;
+  text-decoration: none;
+}
+
+/* End Hoover Function */
 
 .retangule26 {
   display: flex;
@@ -303,6 +514,10 @@ body {
   top: 3046px;
 }
 
+.grid-item {
+  background-color: #fff;
+}
+
 .grid-item h3 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -311,18 +526,18 @@ body {
   line-height: 30px;
   color: #fff;
   text-align: left;
+  margin-left: 25px;
 }
 
-.grid-item {
-  background-color: #fff;
+.grid-item ul {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 27px;
-  letter-spacing: -0.0525em;
-  text-align: left;
+  font-weight: 800;
+  font-size: 20px;
+  left: 50px;
+  line-height: 30px;
   color: #fff;
+  text-align: left;
 }
 
 .techprof {
@@ -337,8 +552,10 @@ body {
   background-position-y: bottom;
 }
 
-.languages li {
-  float: left;
+.about-page {
+  display: flex;
+  position: absolute;
+  width: 100%;
 }
 
 .frameworks {
@@ -430,6 +647,7 @@ body {
   line-height: 27px;
   text-align: center;
   color: #fff;
+  cursor: pointer;
 }
 
 .get-started {
@@ -553,6 +771,13 @@ textarea {
   line-height: 27px;
   text-align: center;
   color: #fff;
+  cursor: pointer;
+}
+
+.desktop-footer {
+  display: flex;
+  position: absolute;
+  width: 100%;
 }
 
 .footer {
@@ -563,18 +788,18 @@ textarea {
   align-items: center;
   width: 1440px;
   height: 123px;
-  left: 240px;
   top: 4729px;
   background: #1a2236;
 }
 
-.footer > .btncv {
+.footer > form > .btncv {
   position: absolute;
   display: flex;
   width: 254px;
   height: 70px;
   left: 160px;
   top: 30px;
+  cursor: pointer;
 }
 
 .media-share {
@@ -1103,7 +1328,7 @@ textarea {
     background: #1a2236;
   }
 
-  .mobile-footer > .mobile-btncv {
+  .mobile-footer > form > .mobile-btncv {
     position: relative;
     display: flex;
     font-size: 16px;
