@@ -10,17 +10,17 @@ menuIcon.addEventListener('click', () => {
 });
 
 menuItem1.addEventListener('click', () => {
-    navbarMobile.classList.toggle('change');
-  });
-  
-  menuItem2.addEventListener('click', () => {
-    navbarMobile.classList.toggle('change');
-  });
-  
-  menuItem3.addEventListener('click', () => {
-    navbarMobile.classList.toggle('change');
-  });
+  navbarMobile.classList.toggle('change');
+});
 
-  menuItem4.addEventListener('click', () => {
-    navbarMobile.classList.toggle('change');
-  });
+menuItem2.addEventListener('click', () => {
+  navbarMobile.classList.toggle('change');
+});
+
+menuItem3.addEventListener('click', () => {
+  navbarMobile.classList.toggle('change');
+});
+
+menuItem4.addEventListener('click', () => {
+  navbarMobile.classList.toggle('change');
+});
