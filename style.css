@@ -925,8 +925,7 @@ textarea {
     position: fixed;
     justify-content: center;
     display: flex;
-    align-items: top;
-    top: 0px;
+    top: 0;
     right: -400px;
     z-index: 4;
     transition: right 0.8s cubic-bezier(1, 0, 0, 1);
