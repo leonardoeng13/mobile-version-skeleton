@@ -27,7 +27,20 @@
                 <a href="#"><img src="images/logomobile.svg" alt="Logo Mobile"></a>
             </div>
             <div class="menumobile">
-                <a href=""><img src="images/ic_menu.svg" alt="Mobile Menu"></a>
+                <nav class="navbar-mobile">
+                    <div class="hamburguer-menu">
+                        <div class="line line-1"></div>
+                        <div class="line line-2"></div>
+                        <div class="line line-3"></div>
+                    </div>
+                    <ul class="hamb-nav-list">
+                        <li id="menu-item1" class="hamb-nav-item"><a href="#mobile-index" target="_self" class="nav-link">Hello</a></li>
+                        <li id="menu-item2" class="hamb-nav-item"><a href="#mobileportfolio" target="_self" class="nav-link">Portfolio</a></li>
+                        <li id="menu-item3" class="hamb-nav-item"><a href="#mobileabout" target="_self" class="nav-link">About</a></li>
+                        <li id="menu-item4" class="hamb-nav-item"><a href="#mobilecontact" target="_self" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+                <!-- <a href=""><img src="images/ic_menu.svg" alt="Mobile Menu"></a> -->
             </div>
         </div>
         <!-- Desktop Header Division -->
@@ -46,8 +59,9 @@
     </header>
     
     <!-- Hello Section -->
-    <section>
+    <section id="hideMobile">
         <!-- Mobile Version  -->
+        <div id="mobile-index">
         <div class="mobile-hello">
             <div class="mobile-intro">
                 <h1>Leo de Andrade</h1>
@@ -58,6 +72,7 @@
             <div class="image_geometry_2">
                 <img src="images/image_geometry_2.png" alt="Image Geometry two">
             </div>
+        </div>
         </div>
         <!-- end mobile version -->
 
@@ -83,7 +98,7 @@
     <div class="mobile-project">
 
         <div class="mobile-project-tit">
-            <h1 class="mobile-projecttit">Projects</h1>
+            <h1 id="mobileportfolio" class="mobile-projecttit">Projects</h1>
         </div>
         <div class="mobile-project1">
             <img src="images/mobile-Rectangle21.png" alt="Rectangule Project">
@@ -166,8 +181,8 @@
     <!-- mobile version stop -->
     <section class="project">
 
-        <div id="project-link" class="project-tit">
-            <h1 class="projecttit">Projects</h1>
+        <div class="project-tit">
+            <h1 id="project-link" class="projecttit">Projects</h1>
         </div>
 
         <div class="dots-project">
@@ -237,7 +252,7 @@
         <!-- about mobile version -->
         <div class="mobile-about-page">
             <div class="mobile-about">
-                <h1 class="mobile-about-tit">About</h1>
+                <h1 id="mobileabout" class="mobile-about-tit">About</h1>
                 <div class="mobile-about-text">
                     <p class="mobile-about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea eiusmod</p>
@@ -321,7 +336,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
             </div>
             
-            <div class="mobile-form">
+            <div id="mobilecontact" class="mobile-form">
                 <form action="https://formspree.io/f/myyldona" method="POST">
                     <div class="mobile-formcontainer">
                         <div class="mobile-fistname">
@@ -413,5 +428,6 @@
             </div>
         </div>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
