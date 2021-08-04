@@ -224,21 +224,16 @@ p {
 
 .close-btn {
   position: absolute;
-  /* top: 0; */
   right: 10px;
   font-size: 42px;
   color: #1a2236;
   transform: rotate(45deg);
   cursor: pointer;
-  /* position: absolute; */
   width: 32px;
   height: 32px;
   left: 1277px;
   top: 143px;
   z-index: 1;
-  /* background: #1A2236; */
-
-
 }
 
 .close-btn:hover {
@@ -262,16 +257,12 @@ p {
   height: 1711px;
   left: 70px;
   top: 70px;
-  /* padding: 35px 35px 35px 35px; */
-  /* top: 300px; */
-  /* left: 35px; */
 }
 
 .popup-overlay-objects {
   height: 100%;
   width: 100%;
   margin: 30px 0;
-    /* background-color: #1a2236; */
 }
 
 .popup-bg {
@@ -281,13 +272,11 @@ p {
   display: flex;
   position: relative;
   z-index: 1;
-  /* background-color: #fff; */
 }
 
 .content {
   flex-direction: row;
   width: 90vw;
-  /* margin-top: 40px; */
 }
 
 
@@ -302,7 +291,6 @@ p {
   font-weight: bold;
   font-size: 60px;
   line-height: 80%;
-  /* identical to box height, or 48px */
   color: #1A2236;
 }
 
@@ -342,19 +330,11 @@ p {
 
 .content img {
   position: absolute;
-  /* width: 100%; */
-  /* height: 857.32px; */
-  /* left: 30px; */
-  /* top: 292px; */
-  /* width: 100hv; */
-  /* display: flex; */
-  /* flex-direction: row; */
 }
 
-.paragraph-test {
+.paragraph-modal {
   position: absolute;
   display: block;
-  /* width: 900px; */
   height: 216px;
   left: 200px;
   top: 1218px;
@@ -405,7 +385,6 @@ p {
   transform: translateY(-10px);
 }
 
-
 .btn-secondary {
   background-color: #1a2236;
   color: #fff;
@@ -443,16 +422,13 @@ p {
   width: 100%;
   height: 1851px;
   overflow: auto;
-  /* background-color: #fff */
 }
 
 .desktop-closeBtn {
   color: #1a2236;
   float: right;
   font-size: 50px;
-  /* margin-top: -40px; */
 }
-
 
 /* Ends Modal Function */
 
@@ -1424,7 +1400,6 @@ textarea {
     float: right;
     font-size: 50px;
     margin-top: -40px;
-    /* margin-right: 15px; */
   }
 
   .modal-title {

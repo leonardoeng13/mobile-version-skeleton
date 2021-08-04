@@ -88,7 +88,7 @@ function addEvents() {
         + `<img src="${projects[projectId].image}" alt="modal-image" />`
         + '</div>'
         + '<div class="body d-flex flex-dir-col">'
-        + '<div class="paragraph-test">'
+        + '<div class="paragraph-modal">'
         + `<p>${projects[projectId].description}</p>`
         + '<div class="d-flex pop-buttons">'
         + '<button class="btn-primary btn-pop d-flex" type="button">'
