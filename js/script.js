@@ -77,20 +77,20 @@ function addEvents() {
       document.querySelector('.popup-bg').style.display = 'flex';
       let techsHTML = '';
       for (let k = 0; k < projects[i].technologies.length; k += 1) {
-        techsHTML += '<li><p>${projects[i].technologies[k]}</p></li>';
+        techsHTML += `<li><p>${projects[i].technologies[k]}</p></li>`;
       }
       divProject.innerHTML = '<div class="close-btn">+</div>'
       + '<div class="modal-content">'
       + '<div class="modal-content-white">'
-      + '<h1 class="modal-title">${projects[projectId].title}</h1>'
-      + '<ul class="modal-language">${techsHTML}</ul>'
+      + `<h1 class="modal-title">${projects[projectId].title}</h1>`
+      + `<ul class="modal-language">${techsHTML}</ul>`
       + '<div class="content d-flex flex-dir-col">'
       + '<div class="content-image">'
-      + '<img src="${projects[projectId].image}" alt="modal-image" />'
+      + `<img src="${projects[projectId].image}" alt="modal-image" />`
       + '</div>'
       + '<div class="body d-flex flex-dir-col">'
       + '<div class="paragraph-modal">'
-      + '<p>${projects[projectId].description}</p>'
+      + `<p>${projects[projectId].description}</p>`
       + '<div class="d-flex pop-buttons">'
       + '<button class="btn-primary btn-pop d-flex" type="button">'
       + 'See Live <i class="fa fa-clock-o"></i></button>'
