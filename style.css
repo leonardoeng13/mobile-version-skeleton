@@ -1,5 +1,4 @@
 body {
-  /* width: 100%; */
   max-width: 1440px;
   height: 100px;
   margin: 0 auto;
@@ -221,6 +220,242 @@ p {
   top: 1187px;
 }
 
+/* Start Modal Function */
+
+.close-btn {
+  position: absolute;
+  /* top: 0; */
+  right: 10px;
+  font-size: 42px;
+  color: #1a2236;
+  transform: rotate(45deg);
+  cursor: pointer;
+  /* position: absolute; */
+  width: 32px;
+  height: 32px;
+  left: 1277px;
+  top: 143px;
+  z-index: 1;
+  /* background: #1A2236; */
+
+
+}
+
+.close-btn:hover {
+  color: #e45865  ;
+}
+
+.modal-content {
+  position: relative;
+  width: 1440px;
+  height: 1851px;
+  background-color: #1a2236;
+}
+
+.modal-content-white {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  width: 1300px;
+  height: 1711px;
+  left: 70px;
+  top: 70px;
+  /* padding: 35px 35px 35px 35px; */
+  /* top: 300px; */
+  /* left: 35px; */
+}
+
+.popup-overlay-objects {
+  height: 100%;
+  width: 100%;
+  margin: 30px 0;
+    /* background-color: #1a2236; */
+}
+
+.popup-bg {
+  margin-top: 900px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  z-index: 1;
+  /* background-color: #fff; */
+}
+
+.content {
+  flex-direction: row;
+  width: 90vw;
+  /* margin-top: 40px; */
+}
+
+
+.modal-title {
+  position: absolute;
+  width: 726px;
+  height: 48px;
+  left: 60px;
+  top: 30px;
+  font-family: 'Poppins' sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 80%;
+  /* identical to box height, or 48px */
+  color: #1A2236;
+}
+
+.modal-language li {
+  font-size: 16px;
+  line-height: 80%;
+  display: flex;
+  list-style: none;
+  float: left;
+  font-style: normal;
+  text-align: center;
+  color: #1a2236;
+  padding: 10px 5px 10px 5px;
+  margin: 5px 5px 5px 5px;
+  height: 20px;
+  min-width: 132px;
+  border: 1px solid grey;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  align-items: center;
+  position: relative;
+  font-weight: 300;
+  left: -390px;
+  top: 150px;
+}
+
+.content-image {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  width: 1179px;
+  height: 925px;
+  left: 60px;
+  top: 270px
+}
+
+.content img {
+  position: absolute;
+  /* width: 100%; */
+  /* height: 857.32px; */
+  /* left: 30px; */
+  /* top: 292px; */
+  /* width: 100hv; */
+  /* display: flex; */
+  /* flex-direction: row; */
+}
+
+.paragraph-test {
+  position: absolute;
+  display: block;
+  /* width: 900px; */
+  height: 216px;
+  left: 200px;
+  top: 1218px;
+  font-family: 'Poppins' sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #1A2236;
+  font-style: normal;
+  text-align: left;
+}
+
+.body p {
+  width: 80%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.btn-primary {
+  background-color: var(--warning-color);
+  width: 246px;
+  height: 51px;
+  top: 30px;
+  font-family: 'Poppins' sans-serif;
+  color: #1a2236;
+  padding: 12px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border: 1px solid grey;
+  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  align-items: center;
+  position: relative;
+  background-image: url(images/ic_link.svg);
+  background-repeat: no-repeat;
+  background-position-x: 90%;
+  background-position-y: center;
+  transition: transform 250ms;
+}
+
+.btn-primary:hover {
+  transform: translateY(-10px);
+}
+
+
+.btn-secondary {
+  background-color: #1a2236;
+  color: #fff;
+  width: 246px;
+  height: 51px;
+  top: 30px;
+  left: 30px;
+  font-family: 'Poppins' sans-serif;
+  padding: 12px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border: 1px solid grey;
+  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  align-items: center;
+  position: relative;
+  background-image: url(images/ic_github_blue.svg);
+  background-repeat: no-repeat;
+  background-position-x: 90%;
+  background-position-y: center;
+  transition: transform 250ms;
+}
+
+.btn-secondary:hover {
+  transform: translateY(-10px);
+}
+
+.modal2 {
+  display: none;
+  z-index: 1;
+  position: static;
+  width: 100%;
+  height: 1851px;
+  overflow: auto;
+  /* background-color: #fff */
+}
+
+.desktop-closeBtn {
+  color: #1a2236;
+  float: right;
+  font-size: 50px;
+  /* margin-top: -40px; */
+}
+
+
+/* Ends Modal Function */
+
 /* Start Hoover function */
 
 .imgproject1 {
@@ -401,7 +636,7 @@ p {
   position: relative;
 }
 
-.retanguleoverlay .seeproject2 {
+.retanguleoverlay .seeproject {
   background: rgb(219, 218, 218);
   background-image: url(images/arrow.png);
   background-repeat: no-repeat;
@@ -1172,6 +1407,105 @@ textarea {
     margin-left: 6.2%;
     margin-top: 20%;
     text-decoration: none;
+  }
+
+  .modal {
+    display: none;
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 978px;
+    overflow: auto;
+    background-color: #fff
+  }
+
+  .closeBtn {
+    color: #1a2236;
+    float: right;
+    font-size: 50px;
+    margin-top: -40px;
+    /* margin-right: 15px; */
+  }
+
+  .modal-title {
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 80%;
+    line-height: 24px;
+    color: #1a2236;
+  }
+
+  .ul-list-modal > li {
+    font-size: 16px;
+    line-height: 80%;
+    display: flex;
+    list-style: none;
+    float: left;
+    font-style: normal;
+    text-align: center;
+    color: #1a2236;
+    padding: 10px 5px 10px 5px;
+    margin: 5px 5px 5px 5px;
+    height: 10px;
+    border: 1px solid grey;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    align-items: flex-start;
+    position: relative;
+    font-weight: 300;
+    left: -40px;
+  }
+
+  .modal-paragraph {
+    display: flex;
+    text-align: left;
+    line-height: 25px;
+    margin-bottom: 29px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #1a2236;
+  }
+
+  .modal-pos-btn {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    flex-direction: column;
+    left: 15%;
+  }
+
+  .modal-btn {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    width: 246px;
+    height: 51px;
+    color: #1a2236;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    background-color: #fff;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .img-btn {
+    display: flex;
+    padding: 0 10px 0 50px;
+  }
+
+  .image-modal {
+    width: 100%;
+    height: 100%;
+    margin-top: 18px;
   }
 
   .mobile-about-page {
