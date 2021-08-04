@@ -66,7 +66,6 @@
             <div class="mobile-intro">
                 <h1>Leo de Andrade</h1>
                 <p>Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my works. If you like what you see and have a project you need coded, don’t hesitate and contact me</p>
-                <!-- <button class="btnstart">Start Collaboration</button> -->
                 <button title="Start Collaboration" class="btnstart" onclick=" window.open('#get-started', '_self'); return false;">Start Collaboration</button>
             </div>
             <div class="image_geometry_2">
@@ -109,7 +108,34 @@
                         <li><a href="#">Ruby on Rails</a></li>
                         <li><a href="#">JavaScript</a></li>
                     </ul>
-                <button title="See this project" class="btnseethis" onclick=" window.open('#get-started', '_self'); return false;">See this project</button>
+                <button title="See this project" class="btnseethis">See this project</button>
+                <!-- Modal start -->
+                <div id="simpleModal" class="modal">
+                    <div class="modal-content">
+                        <span class="closeBtn">&times;</span>
+                        <h1 class="modal-title">Project name goes here</h1>
+                        <div>
+                            <ul class="ul-list-modal">
+                                <li>HTML/CSS</li>
+                                <li>Ruby on Rais</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            <img src="images/Group-109.svg" alt="Project Show" class="image-modal">
+                        </div>
+                        <br>
+                        <p class="modal-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            <br><br>
+                            Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+                    </div>
+                    <div class="modal-pos-btn">
+                        <button class="modal-btn" onclick="location.href='https://leonardoeng13.github.io/mobile-version-skeleton/'" type="button">See Live<img class="img-btn" src="images/ic_link.svg" alt="Live Demo"></button>
+                        <br>
+                        <button class="modal-btn" onclick="location.href='https://github.com/leonardoeng13/mobile-version-skeleton'" type="button">See Source<img class="img-btn" src="images/ic_github_white.svg" alt="Source Code"></button>
+                    </div>
+                </div> 
+                <!-- Modal ends -->
             </div>
         </div>
         <div class="mobile-retangule22">
@@ -179,7 +205,7 @@
 
     </div>
     <!-- mobile version stop -->
-    <section class="project">
+    <section id="projects" class="project">
 
         <div class="project-tit">
             <h1 id="project-link" class="projecttit">Projects</h1>
@@ -197,7 +223,11 @@
                     <li>Ruby on Rails</li>
                     <li>JavaScript</li>
                 </ul>
-                <div class="seeproject"><a href="index.html">See this project</a></div>
+                <!-- <div class="seeproject"><a href="index.html">See this project</a></div> -->
+                <button id="0" class="seeproject" title="See this project">See this project</button>
+                <!-- Desktop Modal Start -->
+            
+                <!-- Desktop Modal Ends -->
             </div>
         </div>
         <div class="retangule46">
@@ -217,7 +247,8 @@
                     <li>Ruby on Rails</li>
                     <li>+1</li>
                 </ul>
-                <div class="seeproject2"><a href="index.html">See this project</a></div>
+                <button id="1" class="seeproject" title="See this project">See this project</button>
+                <!-- <div class="seeproject2"><a href="index.html">See this project</a></div> -->
             </div>
         </div>
 
@@ -428,6 +459,9 @@
             </div>
         </div>
     </footer>
+        <!-- Popup section -->
+        <div id="overlay" class="popup-bg"></div>
+        <!-- End of Pop-up section -->
     <script src="js/script.js"></script>
 </body>
 </html>
