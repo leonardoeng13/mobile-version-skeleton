@@ -1,6 +1,8 @@
 const menuIcon = document.querySelector('.hamburguer-menu');
 const navbarMobile = document.querySelector('.navbar-mobile');
+
 // #################### DESKTOP ##################################
+
 const modal2 = document.querySelector('#desktopSimpleModal');
 const seeProject = document.querySelectorAll('.seeproject');
 const deskCloseBtn = document.querySelector('.deskCloseBtn');
@@ -11,11 +13,15 @@ const openPopupButtons = document.querySelectorAll('.seeproject'); //Modal Butto
 
 
 //********************* END PART *********************************/
+
 // #################### MOBILE ###################################
+
 const modal = document.querySelector('#simpleModal');
 const btnseethis = document.querySelector('.btnseethis');
 const closeBtn = document.querySelector('.closeBtn');
+
 // ################# CLOSE POP UP MENU ###########################
+
 const menuItem1 = document.querySelector('#menu-item1');
 const menuItem2 = document.querySelector('#menu-item2');
 const menuItem3 = document.querySelector('#menu-item3');
@@ -116,7 +122,6 @@ function addEvents() {
   }
   addEvents();
 //********************* END PART *********************************/
-
 
 seeProject.addEventListener('click', () => {
   modal2.style.display = 'block';
