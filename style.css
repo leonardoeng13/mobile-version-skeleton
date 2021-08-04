@@ -319,12 +319,11 @@ p {
 
 .content-image {
   display: flex;
-  width: 100%;
   position: absolute;
   width: 1179px;
   height: 925px;
   left: 60px;
-  top: 270px
+  top: 270px;
 }
 
 .content img {
@@ -342,7 +341,7 @@ p {
   font-weight: normal;
   font-size: 16px;
   line-height: 28px;
-  color: #1A2236;
+  color: #1a2236;
   text-align: left;
 }
 
