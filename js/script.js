@@ -9,7 +9,6 @@ const deskCloseBtn = document.querySelector('.deskCloseBtn');
 
 const openPopupButtons = document.querySelectorAll('.seeproject');
 
-
 // ********************* END PART ********************************
 
 // #################### MOBILE ###################################
@@ -106,8 +105,8 @@ function addEvents() {
       + '</div>'
       + '</div>';
 
-     document.getElementById('overlay').appendChild(divProject);
-  
+      document.getElementById('overlay').appendChild(divProject);
+
       const deleteDetail = document.querySelector('.close-btn');
       deleteDetail.addEventListener('click', () => {
         divProject.remove();
