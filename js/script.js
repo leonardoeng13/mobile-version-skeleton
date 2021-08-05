@@ -1,38 +1,15 @@
 const menuIcon = document.querySelector('.hamburguer-menu');
 const navbarMobile = document.querySelector('.navbar-mobile');
-// #################### DESKTOP ##################################
-// ******************** NEW PART **********************************
 
 const openPopupButtons = document.querySelectorAll('.seeproject');
-
-// ********************* END PART ********************************
-
-// #################### MOBILE ###################################
 
 const modal = document.querySelector('#simpleModal');
 const btnseethis = document.querySelector('.btnseethis');
 const closeBtn = document.querySelector('.closeBtn');
-// ################# CLOSE POP UP MENU ###########################
 const menuItem1 = document.querySelector('#menu-item1');
 const menuItem2 = document.querySelector('#menu-item2');
 const menuItem3 = document.querySelector('#menu-item3');
 const menuItem4 = document.querySelector('#menu-item4');
-// ################## FORM VALIDATION ############################
-/* const desktopsubmit = document.querySelector('#form-submit-desktop');
-const name_desktop = document.querySelector('#name-desktop');
-const email_desktop = document.querySelector('#email-desktop');
-const msg_desktop = document.querySelector('#msg-desktop');
-const errormsgdesktop = document.querySelector('#errormsgdesktop');
-const mobileSubmit = document.querySelector('#form-submit-mobile');
-const name_mobile = document.querySelector('#name-mobile');
-const email_mobile = document.querySelector('#email-mobile');
-const msg_mobile = document.querySelector('#msg-mobile');
-const errormsgmobile = document.querySelector('#errormsgmobile');
-var d_formInfo = {name:'', email:'', msg:''};
-var m_formInfo = {name:'', email:'', msg:''};
-var desktop_info = "";
-var mobile_info = ""; */
-// ################## END FORM VALIDATION ########################
 
 menuIcon.addEventListener('click', () => {
   navbarMobile.classList.toggle('change');
