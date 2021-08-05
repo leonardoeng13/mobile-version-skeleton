@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ce416cd6de.js" crossorigin="anonymous"></script>  
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZYTLN5HPEC"></script>
     <script>
@@ -368,21 +369,22 @@
             </div>
             
             <div id="mobilecontact" class="mobile-form">
-                <form action="https://formspree.io/f/myyldona" method="POST">
+                <form id="sendmail" action="https://formspree.io/f/myyldona" method="POST" autocomplete="off">
                     <div class="mobile-formcontainer">
                         <div class="mobile-fistname">
                             <label for="mobilefname">First Name</label>
                             <br>
-                            <input type="text" id="mobilefname" name="firstname" maxlength="30" required placeholder="Your name..">
+                            <input type="text" id="mobilefname" class="input" name="firstname" maxlength="30" required placeholder="Your name..">
                         </div>
                         <div class="mobile-email">
                             <label for="mobileemail">E-mail</label>
                             <br>               
-                            <input type="email" id="mobileemail" name="_replyto" required placeholder="Your e-mail..">
+                            <input class="input" type="email" id="mobileemail" name="_replyto" required placeholder="Your e-mail..">
+                            <small class="lowercase-validation"></small>
                         </div>
                     </div>
                     <label for="mobiletextarea">Message</label>
-                    <textarea name="message" id="mobiletextarea" cols="10" rows="10" maxlength="500" required placeholder="Your message here ..."></textarea>
+                    <textarea name="message" id="mobiletextarea" cols="10" rows="10" class="input" maxlength="500" required placeholder="Your message here ..."></textarea>
                     <button class="mobile-btnsend" type="submit">Start Collaboration</button>
                 </form>
                 
@@ -406,22 +408,23 @@
             </div>
 
             <div id="get-started" class="form">
-                <form action="https://formspree.io/f/myyldona" method="POST">
+                <form id="sendmailDesk" action="https://formspree.io/f/myyldona" method="POST" autocomplete="off">
                     <div class="formcontainer">
-                        <div class="fistname">
+                        <div>
                             <label for="fname">First Name</label>
                             <br>
-                            <input type="text" id="fname" name="firstname" maxlength="30" required placeholder="Your name..">
+                            <input type="text" id="name-desktop" name="firstname" maxlength="30" required placeholder="Your name..">
                         </div>
-                        <div class="email">
+                        <div>
                             <label for="email">E-mail</label>
                             <br>               
-                            <input type="email" id="email" name="_replyto" required placeholder="Your e-mail..">
+                            <input type="email" id="email-desktop" name="user_email" placeholder="Your e-mail.." required>
                         </div>
                     </div>
-                    <label for="textarea">Message</label>
-                    <textarea name="message" id="textarea" cols="30" rows="10" maxlength="500" required placeholder="Your message here ..."></textarea>
-                    <button class="btnsend" type="submit">Start Collaboration</button>
+                    <textarea name="message" id="msg-desktop" cols="30" rows="10" maxlength="500" required placeholder="Your message here ..."></textarea>
+                    <label class="email-message d-none" id="email_message">Email should be on lower case.</label>
+                    <br>
+                    <button id="form-submit-desktop" type="submit" class="btnsend" value="Get in touch">Start Collaboration</button>
                 </form>
 
             </div> 

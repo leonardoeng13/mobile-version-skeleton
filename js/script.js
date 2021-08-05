@@ -1,7 +1,7 @@
 const menuIcon = document.querySelector('.hamburguer-menu');
 const navbarMobile = document.querySelector('.navbar-mobile');
 // #################### DESKTOP ##################################
-const modal2 = document.querySelector('#desktopSimpleModal');
+// const modal2 = document.querySelector('#desktopSimpleModal');
 const seeProject = document.querySelectorAll('.seeproject');
 const deskCloseBtn = document.querySelector('.deskCloseBtn');
 
@@ -21,6 +21,22 @@ const menuItem1 = document.querySelector('#menu-item1');
 const menuItem2 = document.querySelector('#menu-item2');
 const menuItem3 = document.querySelector('#menu-item3');
 const menuItem4 = document.querySelector('#menu-item4');
+// ################## FORM VALIDATION ############################
+/* const desktopsubmit = document.querySelector('#form-submit-desktop');
+const name_desktop = document.querySelector('#name-desktop');
+const email_desktop = document.querySelector('#email-desktop');
+const msg_desktop = document.querySelector('#msg-desktop');
+const errormsgdesktop = document.querySelector('#errormsgdesktop');
+const mobileSubmit = document.querySelector('#form-submit-mobile');
+const name_mobile = document.querySelector('#name-mobile');
+const email_mobile = document.querySelector('#email-mobile');
+const msg_mobile = document.querySelector('#msg-mobile');
+const errormsgmobile = document.querySelector('#errormsgmobile');
+var d_formInfo = {name:'', email:'', msg:''};
+var m_formInfo = {name:'', email:'', msg:''};
+var desktop_info = "";
+var mobile_info = ""; */
+// ################## END FORM VALIDATION ########################
 
 menuIcon.addEventListener('click', () => {
   navbarMobile.classList.toggle('change');
@@ -118,13 +134,13 @@ function addEvents() {
 
 addEvents();
 
-seeProject.addEventListener('click', () => {
+/* seeProject.addEventListener('click', () => {
   modal2.style.display = 'block';
 });
 
 deskCloseBtn.addEventListener('click', () => {
   modal2.style.display = 'none';
-});
+}); */
 
 btnseethis.addEventListener('click', () => {
   modal.style.display = 'block';
@@ -133,3 +149,21 @@ btnseethis.addEventListener('click', () => {
 closeBtn.addEventListener('click', () => {
   modal.style.display = 'none';
 });
+
+// ################# E-mail Validation #################
+// Desktop Version
+const form1 = document.getElementById('sendmailDesk');
+const emailInput = document.getElementById('email-desktop');
+
+form1.addEventListener('submit', (event) => {
+  const validateRegex = /[A-Z]/g;
+
+  if (validateRegex.test(emailInput.value)) {
+    document.getElementById('email_message').classList.toggle('d-none');
+    event.preventDefault();
+   } else if (!document.getElementById('email_message').className === 'email-message d-none') {
+    document.getElementById('email_message').classList.toggle('d-none');
+  }
+});
+
+// ################# END E-mail Validation #############

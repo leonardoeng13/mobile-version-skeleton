@@ -425,6 +425,17 @@ p {
 
 /* Ends Modal Function */
 
+.email-message {
+  /* display: none; */
+  color: #ff6b00;
+  margin-left: 80px;
+  padding-top: 35px;
+}
+
+.d-none {
+  display: none;
+}
+
 /* Start Hoover function */
 
 .imgproject1 {
