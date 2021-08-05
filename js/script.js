@@ -166,13 +166,14 @@ form1.addEventListener('submit', (event) => {
   }
 });
 // Mobile Version
+
 const form2 = document.getElementById('sendmailmob');
-const emailInput = document.getElementById('email-mobile');
+const emailInput2 = document.getElementById('email-mobile-send');
 
-form1.addEventListener('submit', (event) => {
-  const validateRegex = /[A-Z]/g;
+form2.addEventListener('submit', (event) => {
+  const validateRegex2 = /[A-Z]/g;
 
-  if (validateRegex.test(emailInput.value)) {
+  if (validateRegex2.test(emailInput2.value)) {
     document.getElementById('email_mobile').classList.toggle('d-none');
     event.preventDefault();
    } else if (!document.getElementById('email_mobile').className === 'email-mobile d-none') {
