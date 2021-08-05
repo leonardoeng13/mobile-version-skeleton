@@ -165,5 +165,19 @@ form1.addEventListener('submit', (event) => {
     document.getElementById('email_message').classList.toggle('d-none');
   }
 });
+// Mobile Version
+const form2 = document.getElementById('sendmailmob');
+const emailInput = document.getElementById('email-mobile');
+
+form1.addEventListener('submit', (event) => {
+  const validateRegex = /[A-Z]/g;
+
+  if (validateRegex.test(emailInput.value)) {
+    document.getElementById('email_mobile').classList.toggle('d-none');
+    event.preventDefault();
+   } else if (!document.getElementById('email_mobile').className === 'email-mobile d-none') {
+    document.getElementById('email_mobile').classList.toggle('d-none');
+  }
+});
 
 // ################# END E-mail Validation #############
