@@ -1,10 +1,6 @@
 const menuIcon = document.querySelector('.hamburguer-menu');
 const navbarMobile = document.querySelector('.navbar-mobile');
 // #################### DESKTOP ##################################
-// const modal2 = document.querySelector('#desktopSimpleModal');
-const seeProject = document.querySelectorAll('.seeproject');
-const deskCloseBtn = document.querySelector('.deskCloseBtn');
-
 // ******************** NEW PART **********************************
 
 const openPopupButtons = document.querySelectorAll('.seeproject');
@@ -134,14 +130,6 @@ function addEvents() {
 
 addEvents();
 
-/* seeProject.addEventListener('click', () => {
-  modal2.style.display = 'block';
-});
-
-deskCloseBtn.addEventListener('click', () => {
-  modal2.style.display = 'none';
-}); */
-
 btnseethis.addEventListener('click', () => {
   modal.style.display = 'block';
 });
@@ -161,7 +149,7 @@ form1.addEventListener('submit', (event) => {
   if (validateRegex.test(emailInput.value)) {
     document.getElementById('email_message').classList.toggle('d-none');
     event.preventDefault();
-   } else if (!document.getElementById('email_message').className === 'email-message d-none') {
+  } else if (!document.getElementById('email_message').className === 'email-message d-none') {
     document.getElementById('email_message').classList.toggle('d-none');
   }
 });
@@ -176,7 +164,7 @@ form2.addEventListener('submit', (event) => {
   if (validateRegex2.test(emailInput2.value)) {
     document.getElementById('email_mobile').classList.toggle('d-none');
     event.preventDefault();
-   } else if (!document.getElementById('email_mobile').className === 'email-mobile d-none') {
+  } else if (!document.getElementById('email_mobile').className === 'email-mobile d-none') {
     document.getElementById('email_mobile').classList.toggle('d-none');
   }
 });
