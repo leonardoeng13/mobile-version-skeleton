@@ -132,8 +132,8 @@ form1.addEventListener('submit', (event) => {
 });
 // Mobile Version
 
-const form2 = document.getElementById('sendmailmob');
-const emailInput2 = document.getElementById('email-mobile-send');
+const form2 = document.getElementById('mobsendmail');
+const emailInput2 = document.getElementById('send-email-mobile');
 
 form2.addEventListener('submit', (event) => {
   const validateRegex2 = /[A-Z]/g;
