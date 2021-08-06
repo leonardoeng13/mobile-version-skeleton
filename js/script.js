@@ -1,22 +1,11 @@
 const menuIcon = document.querySelector('.hamburguer-menu');
 const navbarMobile = document.querySelector('.navbar-mobile');
-// #################### DESKTOP ##################################
-const modal2 = document.querySelector('#desktopSimpleModal');
-const seeProject = document.querySelectorAll('.seeproject');
-const deskCloseBtn = document.querySelector('.deskCloseBtn');
-
-// ******************** NEW PART **********************************
 
 const openPopupButtons = document.querySelectorAll('.seeproject');
-
-// ********************* END PART ********************************
-
-// #################### MOBILE ###################################
 
 const modal = document.querySelector('#simpleModal');
 const btnseethis = document.querySelector('.btnseethis');
 const closeBtn = document.querySelector('.closeBtn');
-// ################# CLOSE POP UP MENU ###########################
 const menuItem1 = document.querySelector('#menu-item1');
 const menuItem2 = document.querySelector('#menu-item2');
 const menuItem3 = document.querySelector('#menu-item3');
@@ -118,14 +107,6 @@ function addEvents() {
 
 addEvents();
 
-seeProject.addEventListener('click', () => {
-  modal2.style.display = 'block';
-});
-
-deskCloseBtn.addEventListener('click', () => {
-  modal2.style.display = 'none';
-});
-
 btnseethis.addEventListener('click', () => {
   modal.style.display = 'block';
 });
@@ -133,3 +114,36 @@ btnseethis.addEventListener('click', () => {
 closeBtn.addEventListener('click', () => {
   modal.style.display = 'none';
 });
+
+// ################# E-mail Validation #################
+// Desktop Version
+const form1 = document.getElementById('sendmailDesk');
+const emailInput = document.getElementById('email-desktop');
+
+form1.addEventListener('submit', (event) => {
+  const validateRegex = /[A-Z]/g;
+
+  if (validateRegex.test(emailInput.value)) {
+    document.getElementById('email_message').classList.toggle('d-none');
+    event.preventDefault();
+  } else if (!document.getElementById('email_message').className === 'email-message d-none') {
+    document.getElementById('email_message').classList.toggle('d-none');
+  }
+});
+// Mobile Version
+
+const form2 = document.getElementById('sendmailmob');
+const emailInput2 = document.getElementById('email-mobile-send');
+
+form2.addEventListener('submit', (event) => {
+  const validateRegex2 = /[A-Z]/g;
+
+  if (validateRegex2.test(emailInput2.value)) {
+    document.getElementById('email_mobile').classList.toggle('d-none');
+    event.preventDefault();
+  } else if (!document.getElementById('email_mobile').className === 'email-mobile d-none') {
+    document.getElementById('email_mobile').classList.toggle('d-none');
+  }
+});
+
+// ################# END E-mail Validation #############
